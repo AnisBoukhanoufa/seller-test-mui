@@ -1,0 +1,1 @@
+import{j as t}from"./index-335be6bc.js";import{S as m}from"./Snackbar-abf2ba22.js";import{A as n}from"./Alert-67637005.js";const p=({open:a,message:i,severity:o="info",autoHideDuration:s=6e3,onClose:r})=>t.jsx(m,{open:a,autoHideDuration:s,onClose:r,children:t.jsx(n,{onClose:r,severity:o,variant:"filled",children:i})});export{p as C};

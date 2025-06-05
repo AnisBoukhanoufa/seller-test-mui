@@ -1,0 +1,262 @@
+{
+  "_chunk-49eae3d6.js": {
+    "file": "assets/chunks/chunk-49eae3d6.js"
+  },
+  "_chunk-9af97169.js": {
+    "file": "assets/chunks/chunk-9af97169.js",
+    "imports": [
+      "_chunk-49eae3d6.js"
+    ]
+  },
+  "_chunk-a6d620bb.js": {
+    "file": "assets/chunks/chunk-a6d620bb.js"
+  },
+  "node_modules/vite-plugin-ssr/dist/esm/client/client-routing-runtime/entry.js": {
+    "dynamicImports": [
+      "pages/about/index.page.tsx",
+      "pages/index/index.page.tsx",
+      "renderer/_error.page.tsx",
+      "renderer/_default.page.client.tsx",
+      "renderer/_default.page.server.tsx?extractAssets&lang.tsx"
+    ],
+    "file": "assets/entries/entry-client-routing.d363b338.js",
+    "imports": [
+      "_chunk-a6d620bb.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/vite-plugin-ssr/dist/esm/client/client-routing-runtime/entry.js"
+  },
+  "node_modules/vite-plugin-ssr/dist/esm/client/server-routing-runtime/entry.js": {
+    "dynamicImports": [
+      "pages/about/index.page.tsx",
+      "pages/index/index.page.tsx",
+      "renderer/_error.page.tsx",
+      "renderer/_default.page.client.tsx",
+      "renderer/_default.page.server.tsx?extractAssets&lang.tsx"
+    ],
+    "file": "assets/entries/entry-server-routing.6d283558.js",
+    "imports": [
+      "_chunk-a6d620bb.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/vite-plugin-ssr/dist/esm/client/server-routing-runtime/entry.js"
+  },
+  "pages/about/index.page.css": {
+    "file": "assets/static/index.page.f1aef519.css",
+    "src": "pages/about/index.page.css"
+  },
+  "pages/about/index.page.tsx": {
+    "css": [
+      "assets/static/index.page.f1aef519.css"
+    ],
+    "file": "assets/entries/pages_about_index.page.da865e87.js",
+    "imports": [
+      "_chunk-49eae3d6.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "pages/about/index.page.tsx"
+  },
+  "pages/index/index.page.css": {
+    "file": "assets/static/index.page.8b130f24.css",
+    "src": "pages/index/index.page.css"
+  },
+  "pages/index/index.page.tsx": {
+    "assets": [
+      "assets/static/benefits.1adde44c.png",
+      "assets/static/simulation.b2d3d859.svg",
+      "assets/static/am.9b9211ff.svg",
+      "assets/static/real-time.ed4cbe41.svg",
+      "assets/static/warehousing.ab63d8da.svg",
+      "assets/static/countries.ad279010.png",
+      "assets/static/logo.e1dd4272.svg",
+      "assets/static/linked-in.2e56c93c.svg",
+      "assets/static/facebook.f57e397b.svg",
+      "assets/static/instagram.4bbb719d.svg",
+      "assets/static/at.7ea3842c.svg",
+      "assets/static/phone.f4dd7700.svg",
+      "assets/static/location.b12dc723.svg",
+      "assets/static/logo-white.2c88126e.svg",
+      "assets/static/logo-text-horizontal.1e93e1cd.svg",
+      "assets/static/macbook.d7c803cd.webp",
+      "assets/static/iphone.dbacc93a.png",
+      "assets/static/our-company.c5c8c863.png",
+      "assets/static/sourcing.f6e152cc.svg",
+      "assets/static/cod.4f896418.svg",
+      "assets/static/call-center.b758fc2a.svg",
+      "assets/static/delivery.d1816bb0.svg",
+      "assets/static/fullfilment.7eec709e.svg",
+      "assets/static/warhousing.de19ee6e.svg",
+      "assets/static/sourcing-phone.c58e4c68.svg",
+      "assets/static/cod-phone.d6850280.svg",
+      "assets/static/call-center-phone.958748b3.svg",
+      "assets/static/delivery-phone.8cd4652c.svg",
+      "assets/static/fulfillment-phone.f44ec3c6.svg",
+      "assets/static/warehousing-phone.8de8ccb1.svg"
+    ],
+    "css": [
+      "assets/static/index.page.8b130f24.css"
+    ],
+    "file": "assets/entries/pages_index_index.page.681e69df.js",
+    "imports": [
+      "_chunk-49eae3d6.js",
+      "_chunk-9af97169.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "pages/index/index.page.tsx"
+  },
+  "renderer/_default.page.client.tsx": {
+    "file": "assets/entries/renderer_default.page.client.061c2617.js",
+    "imports": [
+      "_chunk-49eae3d6.js",
+      "_chunk-9af97169.js",
+      "renderer/_default.page.server.tsx?extractAssets&lang.tsx"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "renderer/_default.page.client.tsx"
+  },
+  "renderer/_default.page.server.tsx?extractAssets&lang.css": {
+    "file": "assets/static/default.page.server.65f65962.css",
+    "src": "renderer/_default.page.server.tsx?extractAssets&lang.css"
+  },
+  "renderer/_default.page.server.tsx?extractAssets&lang.tsx": {
+    "css": [
+      "assets/static/default.page.server.65f65962.css"
+    ],
+    "file": "assets/entries/renderer_default.page.server.extractAssets.83a34574.js",
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "renderer/_default.page.server.tsx?extractAssets&lang.tsx"
+  },
+  "renderer/_error.page.tsx": {
+    "file": "assets/entries/renderer_error.page.34bfda87.js",
+    "imports": [
+      "_chunk-49eae3d6.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "renderer/_error.page.tsx"
+  },
+  "src/assets-v1/benefits-icons/am.svg": {
+    "file": "assets/static/am.9b9211ff.svg",
+    "src": "src/assets-v1/benefits-icons/am.svg"
+  },
+  "src/assets-v1/benefits-icons/real-time.svg": {
+    "file": "assets/static/real-time.ed4cbe41.svg",
+    "src": "src/assets-v1/benefits-icons/real-time.svg"
+  },
+  "src/assets-v1/benefits-icons/simulation.svg": {
+    "file": "assets/static/simulation.b2d3d859.svg",
+    "src": "src/assets-v1/benefits-icons/simulation.svg"
+  },
+  "src/assets-v1/benefits-icons/warehousing.svg": {
+    "file": "assets/static/warehousing.ab63d8da.svg",
+    "src": "src/assets-v1/benefits-icons/warehousing.svg"
+  },
+  "src/assets-v1/benefits.png": {
+    "file": "assets/static/benefits.1adde44c.png",
+    "src": "src/assets-v1/benefits.png"
+  },
+  "src/assets-v1/contact-icons/at.svg": {
+    "file": "assets/static/at.7ea3842c.svg",
+    "src": "src/assets-v1/contact-icons/at.svg"
+  },
+  "src/assets-v1/contact-icons/location.svg": {
+    "file": "assets/static/location.b12dc723.svg",
+    "src": "src/assets-v1/contact-icons/location.svg"
+  },
+  "src/assets-v1/contact-icons/phone.svg": {
+    "file": "assets/static/phone.f4dd7700.svg",
+    "src": "src/assets-v1/contact-icons/phone.svg"
+  },
+  "src/assets-v1/countries.png": {
+    "file": "assets/static/countries.ad279010.png",
+    "src": "src/assets-v1/countries.png"
+  },
+  "src/assets-v1/iphone.png": {
+    "file": "assets/static/iphone.dbacc93a.png",
+    "src": "src/assets-v1/iphone.png"
+  },
+  "src/assets-v1/logo-text-horizontal.svg": {
+    "file": "assets/static/logo-text-horizontal.1e93e1cd.svg",
+    "src": "src/assets-v1/logo-text-horizontal.svg"
+  },
+  "src/assets-v1/logo-white.svg": {
+    "file": "assets/static/logo-white.2c88126e.svg",
+    "src": "src/assets-v1/logo-white.svg"
+  },
+  "src/assets-v1/logo.svg": {
+    "file": "assets/static/logo.e1dd4272.svg",
+    "src": "src/assets-v1/logo.svg"
+  },
+  "src/assets-v1/macbook.webp": {
+    "file": "assets/static/macbook.d7c803cd.webp",
+    "src": "src/assets-v1/macbook.webp"
+  },
+  "src/assets-v1/our-company.png": {
+    "file": "assets/static/our-company.c5c8c863.png",
+    "src": "src/assets-v1/our-company.png"
+  },
+  "src/assets-v1/services-icons/call-center-phone.svg": {
+    "file": "assets/static/call-center-phone.958748b3.svg",
+    "src": "src/assets-v1/services-icons/call-center-phone.svg"
+  },
+  "src/assets-v1/services-icons/call-center.svg": {
+    "file": "assets/static/call-center.b758fc2a.svg",
+    "src": "src/assets-v1/services-icons/call-center.svg"
+  },
+  "src/assets-v1/services-icons/cod-phone.svg": {
+    "file": "assets/static/cod-phone.d6850280.svg",
+    "src": "src/assets-v1/services-icons/cod-phone.svg"
+  },
+  "src/assets-v1/services-icons/cod.svg": {
+    "file": "assets/static/cod.4f896418.svg",
+    "src": "src/assets-v1/services-icons/cod.svg"
+  },
+  "src/assets-v1/services-icons/delivery-phone.svg": {
+    "file": "assets/static/delivery-phone.8cd4652c.svg",
+    "src": "src/assets-v1/services-icons/delivery-phone.svg"
+  },
+  "src/assets-v1/services-icons/delivery.svg": {
+    "file": "assets/static/delivery.d1816bb0.svg",
+    "src": "src/assets-v1/services-icons/delivery.svg"
+  },
+  "src/assets-v1/services-icons/fulfillment-phone.svg": {
+    "file": "assets/static/fulfillment-phone.f44ec3c6.svg",
+    "src": "src/assets-v1/services-icons/fulfillment-phone.svg"
+  },
+  "src/assets-v1/services-icons/fullfilment.svg": {
+    "file": "assets/static/fullfilment.7eec709e.svg",
+    "src": "src/assets-v1/services-icons/fullfilment.svg"
+  },
+  "src/assets-v1/services-icons/sourcing-phone.svg": {
+    "file": "assets/static/sourcing-phone.c58e4c68.svg",
+    "src": "src/assets-v1/services-icons/sourcing-phone.svg"
+  },
+  "src/assets-v1/services-icons/sourcing.svg": {
+    "file": "assets/static/sourcing.f6e152cc.svg",
+    "src": "src/assets-v1/services-icons/sourcing.svg"
+  },
+  "src/assets-v1/services-icons/warehousing-phone.svg": {
+    "file": "assets/static/warehousing-phone.8de8ccb1.svg",
+    "src": "src/assets-v1/services-icons/warehousing-phone.svg"
+  },
+  "src/assets-v1/services-icons/warhousing.svg": {
+    "file": "assets/static/warhousing.de19ee6e.svg",
+    "src": "src/assets-v1/services-icons/warhousing.svg"
+  },
+  "src/assets-v1/social-media-icons/facebook.svg": {
+    "file": "assets/static/facebook.f57e397b.svg",
+    "src": "src/assets-v1/social-media-icons/facebook.svg"
+  },
+  "src/assets-v1/social-media-icons/instagram.svg": {
+    "file": "assets/static/instagram.4bbb719d.svg",
+    "src": "src/assets-v1/social-media-icons/instagram.svg"
+  },
+  "src/assets-v1/social-media-icons/linked-in.svg": {
+    "file": "assets/static/linked-in.2e56c93c.svg",
+    "src": "src/assets-v1/social-media-icons/linked-in.svg"
+  }
+}
