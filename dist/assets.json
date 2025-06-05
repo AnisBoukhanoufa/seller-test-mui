@@ -19,7 +19,7 @@
       "renderer/_default.page.client.tsx",
       "renderer/_default.page.server.tsx?extractAssets&lang.tsx"
     ],
-    "file": "assets/entries/entry-client-routing.d363b338.js",
+    "file": "assets/entries/entry-client-routing.7d01e882.js",
     "imports": [
       "_chunk-a6d620bb.js"
     ],
@@ -34,7 +34,7 @@
       "renderer/_default.page.client.tsx",
       "renderer/_default.page.server.tsx?extractAssets&lang.tsx"
     ],
-    "file": "assets/entries/entry-server-routing.6d283558.js",
+    "file": "assets/entries/entry-server-routing.191391b8.js",
     "imports": [
       "_chunk-a6d620bb.js"
     ],
@@ -107,7 +107,7 @@
     "src": "pages/index/index.page.tsx"
   },
   "renderer/_default.page.client.tsx": {
-    "file": "assets/entries/renderer_default.page.client.061c2617.js",
+    "file": "assets/entries/renderer_default.page.client.09a12524.js",
     "imports": [
       "_chunk-49eae3d6.js",
       "_chunk-9af97169.js",
@@ -118,14 +118,14 @@
     "src": "renderer/_default.page.client.tsx"
   },
   "renderer/_default.page.server.tsx?extractAssets&lang.css": {
-    "file": "assets/static/default.page.server.65f65962.css",
+    "file": "assets/static/default.page.server.49536bbc.css",
     "src": "renderer/_default.page.server.tsx?extractAssets&lang.css"
   },
   "renderer/_default.page.server.tsx?extractAssets&lang.tsx": {
     "css": [
-      "assets/static/default.page.server.65f65962.css"
+      "assets/static/default.page.server.49536bbc.css"
     ],
-    "file": "assets/entries/renderer_default.page.server.extractAssets.83a34574.js",
+    "file": "assets/entries/renderer_default.page.server.extractAssets.167bc60e.js",
     "isDynamicEntry": true,
     "isEntry": true,
     "src": "renderer/_default.page.server.tsx?extractAssets&lang.tsx"
