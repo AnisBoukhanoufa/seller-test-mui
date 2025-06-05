@@ -1,0 +1,109 @@
+.edit-order-affiliate {
+  display: flex;
+  gap: 30px;
+  width: 400px;
+
+  .edit-order-seller-info,
+  .edit-order-seller-product {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
+  }
+
+  .products {
+    flex: 2;
+    display: flex;
+    gap: 60px;
+    padding: 0;
+    h3 {
+      text-align: center;
+    }
+    .descrition-edit {
+      margin-top: 20px;
+      .description-title {
+        display: inline-block;
+        margin-bottom: 5px;
+        color: var(--color-gray);
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+// .products-images {
+//   flex: 1;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 30px;
+
+//   .uploadMessage {
+//     text-align: center;
+//     color: #c0c0c0;
+//   }
+
+//   .clearButton {
+//     background-color: var(--color-returned);
+//     color: #fff;
+//     padding: 0.5rem;
+//     width: max-content;
+//     border-radius: 0.3rem;
+//     cursor: pointer;
+//   }
+
+//   ul {
+//     display: flex;
+//     gap: 0.5rem;
+//     flex-direction: column;
+//     max-height: 7rem;
+//     overflow-y: auto;
+
+//     li {
+//       background-color: #f4f4f4;
+//       border-radius: 0.3rem;
+//       display: flex;
+//       justify-content: space-between;
+//       padding: 1rem 1.3rem;
+
+//       .deleteButton {
+//         cursor: pointer;
+//       }
+//     }
+//   }
+
+//   .uploadArea {
+//     height: 10rem;
+//     width: 100%;
+//     border: dotted 0.15rem #c0c0c0;
+//     border-radius: 0.5rem;
+//     display: flex;
+//     align-items: center;
+//     flex-direction: column;
+//     justify-content: center;
+//     position: relative;
+//     gap: 1rem;
+
+//     &:hover {
+//       background-color: #d9e0eb;
+//       border: 0.15rem solid var(--color-main);
+//     }
+
+//     input {
+//       cursor: pointer;
+//       position: absolute;
+//       height: 100%;
+//       opacity: 0;
+//       width: 100%;
+//       background-color: red;
+//     }
+//     span {
+//       color: var(--color-main);
+//     }
+//   }
+// }
+// .product-details {
+//   flex: 1;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 30px;
+// }

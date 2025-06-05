@@ -1,0 +1,12 @@
+.detailItem {
+  display: flex;
+  margin-bottom: 0.6em;
+  font-size: 14px;
+  .valueKey {
+    flex: 1;
+  }
+  .itemKey {
+    width: 7rem;
+    min-width: 7rem;
+  }
+}

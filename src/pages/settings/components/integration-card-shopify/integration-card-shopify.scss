@@ -1,0 +1,41 @@
+.integration-card {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  width: 100%;
+  border: 1px solid var(--color-secondary);
+  border-radius: 16px;
+  .card-images {
+    background-color: rgba(0, 201, 11, 0.23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    .logo-icon {
+      height: 50px;
+    }
+  }
+  .card-details {
+    padding: 15px 15px;
+    background-color: var(--color-secondary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .card-title {
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .link-integration {
+        transition:  var(--transition-main);
+      :hover {
+        color: var(--color-main);
+      }
+    }
+    .link-icon {
+      padding: 0;
+      cursor: pointer;
+    }
+  }
+}

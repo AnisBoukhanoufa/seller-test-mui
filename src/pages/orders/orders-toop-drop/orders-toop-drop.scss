@@ -1,0 +1,262 @@
+#simple-menu {
+  .mui-style-ltr-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+    box-shadow: unset;
+    border: 1px solid gray;
+  }
+}
+
+.datatableOrderNormalSeller {
+  height: 100%;
+  padding: 20px;
+
+  .MuiDataGrid-root {
+    // height:fit-content !important ;
+  }
+  .mui-style-ltr-s1v7zr-MuiDataGrid-virtualScrollerRenderZone {
+    position: relative;
+  }
+
+  .widgets {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    gap: 20px;
+
+    overflow-x: auto;
+    .widget-row {
+      display: flex;
+      gap: 20px;
+    }
+  }
+
+  .datatableTitle {
+    width: 100%;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .searchBar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      padding: 5px;
+      .search {
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        padding: 0px 10px;
+      }
+    }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+
+      .importFile {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        overflow: hidden;
+        height: 20px;
+        span {
+          font-size: 14px;
+        }
+
+        input {
+          cursor: pointer;
+          position: absolute;
+          opacity: 0;
+          top: -15px;
+          bottom: 0;
+          left: 0;
+          right: 0;
+        }
+      }
+
+      .xls-button {
+        height: 45px;
+        width: 80px;
+        padding: 5px;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        border: 1px solid var(--color-secondary);
+        background-color: var(--color-secondary);
+        cursor: pointer;
+
+        &:hover {
+          color: var(--color-secondary);
+          background-color: transparent;
+        }
+      }
+    }
+
+    .link {
+      height: 45px;
+      width: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: green;
+      font-size: 14px;
+      font-weight: 400;
+      border: 1px solid green;
+      padding: 5px;
+      border-radius: 5px;
+    }
+  }
+
+  .cellWithImg {
+    display: flex;
+    align-items: center;
+
+    .cellImg {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+  }
+  .cellAction {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .viewButton {
+      padding: 2px 10px;
+      border-radius: 5px;
+      color: rgb(255, 255, 255);
+      border: 1px solid rgba(0, 139, 51, 0.521);
+      background-color: rgba(0, 139, 51, 0.521);
+      cursor: pointer;
+
+      &:hover {
+        color: rgb(0, 139, 0);
+        background-color: transparent;
+      }
+    }
+
+    .whatsappButton {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+
+      border-radius: 5px;
+      color: rgb(255, 255, 255);
+      border: 1px solid #02ae3e;
+      background-color: #02ae3e;
+      border-radius: 50%;
+      aspect-ratio: 1;
+      cursor: pointer;
+
+      img {
+        width: 2rem;
+      }
+    }
+
+    .editButton {
+      padding: 2px 10px;
+      border-radius: 5px;
+      color: rgb(255, 255, 255);
+      border: 1px solid rgba(0, 0, 139, 0.521);
+      background-color: darkblue;
+      cursor: pointer;
+
+      &:hover {
+        color: darkblue;
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+@media (max-width: 1016px) {
+  .datatableOrderNormalSeller {
+    .datatableTitle {
+      flex-direction: column-reverse;
+      .search {
+        width: 100%;
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+.new-menu {
+  height: 45px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color-secondary);
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid var(--color-secondary);
+  padding: 5px;
+  border-radius: 5px;
+  &:hover {
+    border-color: var(--color-secondary);
+    color: white;
+    background-color: var(--color-secondary);
+  }
+}
+
+.new-list {
+  ul {
+    padding: 0 !important;
+    li {
+      padding: 0 !important;
+      a.link {
+        text-decoration: none;
+        color: var(--color-secondary);
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        padding: 6px 16px;
+      }
+      &:hover {
+        a.link {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.button-grp-filter {
+  width: 225px;
+}
+.button-grp-filter button {
+  padding: 7px 20px;
+  border-radius: 20px;
+  color: black;
+  background-color: white;
+  border: solid 1px rgb(226, 226, 226);
+  transition: 0.3s;
+  font-weight: 500;
+}
+.button-grp-filter button svg {
+  width: 20px;
+  margin-right: 10px;
+  height: 20px;
+  transition: 0.3s;
+}
+
+
+
+a.menu-excel {
+  padding: 5px;
+}
+span.menu-excel {
+  padding: 5px;
+}

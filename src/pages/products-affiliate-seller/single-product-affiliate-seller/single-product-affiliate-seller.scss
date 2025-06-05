@@ -1,0 +1,228 @@
+.county-image {
+  width: 1.1rem;
+  margin-right: 10px;
+}
+.singleAffiliateSeller {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  .singleContainer {
+    flex: 5;
+
+    .overflowPreventer {
+      flex-direction: unset;
+    }
+
+    .top {
+      padding: 10px;
+      display: flex;
+      gap: 20px;
+      width: 100%;
+      min-height: 100%;
+
+
+      .left {
+        flex: 1;
+        -webkit-box-shadow: 0px 2px 10px 1px rgba(201, 201, 201, 0.47);
+        box-shadow: 0px 2px 10px 1px rgba(201, 201, 201, 0.47);
+        border-radius: 10px;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        .header {
+          height: fit-content;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin: 5px;
+
+          .id-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--color-main);
+            .date {
+              font-size: 14px;
+              width: fit-content;
+              color: var(--color-gray);
+              font-weight: 400;
+            }
+          }
+          .editButtonContainer {
+            display: flex;
+            gap: 10px;
+
+            .secondary-button {
+              padding: 2px 20px !important;
+              height: 35px !important;
+            }
+            .primary-button {
+              padding: 2px 20px !important;
+              height: 35px !important;
+            }
+          }
+        }
+        .details {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          .title {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin: 0;
+            .name {
+              width: fit-content;
+              font-size: 22px;
+              font-weight: 600;
+              display: flex;
+              align-items: center;
+              gap: 5px;
+            }
+            .date {
+              font-size: 14px;
+              width: fit-content;
+              color: var(--color-gray);
+            }
+          }
+          .status {
+            .valueKey {
+              padding: 5px 15px;
+              font-size: 16px;
+            }
+          }
+        }
+        .detailItem{
+          align-self: flex-start;
+        }
+        .itemKey {
+          color: var(--color-gray);
+          font-size: 15px;
+          margin-bottom: 5px;
+        }
+        .variations-section {
+          width: 100%;
+        }
+        .variations {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          width: 100%;
+        }
+
+        .variations-bullet {
+          color: var(--color-main);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: white;
+          width: fit-content;
+          padding: 5px 17px;
+          font-size: 16px;
+          border-radius: 40px;
+          border: 1px solid var(--color-main);
+          cursor: pointer;
+          &.active {
+            border: 1px solid var(--color-secondary);
+          }
+        }
+
+        .offers-section {
+          width: 100%;
+          flex: 1;
+          .title-countries {
+            margin-bottom: 10px;
+            .link-offer {
+              padding: 0;
+            }
+            .itemKey {
+              margin: 0;
+            }
+            display: flex;
+            gap: 30px;
+            justify-content: space-between;
+            align-items: center;
+            .countries-buttons {
+              display: flex;
+              gap: 7px;
+              align-items: center;
+
+              img.country {
+                cursor: pointer;
+                height: 22px;
+                width: 22px;
+                &.selected-country {
+                  height: 27px;
+                  width: 27px;
+                }
+              }
+            }
+          }
+        }
+  
+      }
+
+      .right {
+        flex: 1;
+        display: flex;
+        gap: 50px;
+        -webkit-box-shadow: 0px 2px 10px 1px rgba(201, 201, 201, 0.47);
+        box-shadow: 0px 2px 10px 1px rgba(201, 201, 201, 0.47);
+        border-radius: 10px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        min-height: 100%;
+        .edit-button{
+          width: fit-content;
+          align-self: flex-end;
+        }
+        .category{
+          display: flex;
+          gap: 1em;
+          .itemKey{
+            margin-right: 1em;
+            width: 15%;
+          }
+          .bullets{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.2em;
+          }
+        }
+        .item {
+          display: flex;
+          gap: 15px;
+          flex-direction: column;
+          width: 100%;
+          height: 100%;
+          .detailItem.description {
+            flex: 1;
+            margin-top: 10px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            height: fit-content;
+            max-height: 50%;
+            .description-container {
+              flex: 1;
+              padding: 5px;
+              background-color: #f7f7f7;
+              height: fit-content;
+              max-height: 100%;
+              padding: 10px;
+              border-radius: 5px;
+              overflow-y: auto;
+            }
+            .itemKey {
+              width: 100%;
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

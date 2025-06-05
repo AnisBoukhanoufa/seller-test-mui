@@ -1,0 +1,50 @@
+.button-grp-filter {
+  width: 190px;
+}
+.button-grp-filter button {
+  padding: 0px 10px;
+  border-radius: 20px;
+  color: black;
+  background-color: rgb(241, 241, 241);
+  border: 1px solid rgb(226, 226, 226);
+  transition: 0.3s;
+  font-weight: 500;
+}
+.button-grp-filter button svg {
+  width: 22px !important;
+  margin-right: 10px;
+  height: 22px !important;
+  transition: 0.3s;
+}
+.button-grp-filter button.filter-btn:hover {
+  border: 1px solid var(--color-secondary);
+  background-color: var(--color-secondary);
+
+  color: white;
+}
+.button-grp-filter button.filter-btn:hover svg {
+  fill: white;
+}
+
+.button-grp-filter button.clear:hover {
+  border-color: rgba(214, 0, 0, 0.797);
+
+  background-color: rgba(214, 0, 0, 0.797);
+  color: white;
+}
+
+.button-grp-filter button.clear:hover svg {
+  fill: white;
+}
+
+.filtered {
+  border: solid 1px var(--color-secondary)!important;
+  background-color: var(--color-secondary) !important;
+  color: rgb(255, 255, 255)!important;
+  cursor: pointer;
+  svg {
+    fill: white;
+    height: 20px;
+    width: 20px;
+  }
+}

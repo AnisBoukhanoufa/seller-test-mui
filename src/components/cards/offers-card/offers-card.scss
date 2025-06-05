@@ -1,0 +1,47 @@
+.offers-section {
+  // margin: 20px 0;
+
+  // max-width: 800px;
+  // overflow: hidden;
+}
+
+.offers-list {
+  padding-bottom: 5px;
+  display: flex;
+  // over
+  gap: 20px;
+  max-width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.offer-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px 7px;
+  display: flex;
+  min-width: 130px;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  text-align: center;
+}
+
+.offer-details {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.commission {
+  color: green;
+}
+
+.offer-country {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+}

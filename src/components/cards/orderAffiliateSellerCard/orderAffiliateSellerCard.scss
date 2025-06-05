@@ -1,0 +1,41 @@
+.productCartAffiliate {
+  display: flex;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 14px;
+
+  .cartProduct-left {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    gap: 10px;
+    width: 45%;
+  }
+
+  .cartProduct-right {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    white-space: nowrap;
+    gap: 10px;
+
+    span {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .trash {
+    width: 20px;
+    margin-inline-start: 5px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

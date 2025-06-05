@@ -1,0 +1,461 @@
+.register {
+  width: 100%;
+  min-height: 100vh;
+
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family);
+
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    327deg,
+    rgba(0, 122, 204, 1) 0%,
+    rgba(2, 62, 138, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    327deg,
+    rgba(0, 122, 204, 1) 0%,
+    rgba(2, 62, 138, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    327deg,
+    rgba(0, 122, 204, 1) 0%,
+    rgba(2, 62, 138, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007ACC', endColorstr='#023E8A', GradientType=1 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    327deg,
+    rgba(0, 122, 204, 1) 0%,
+    rgba(2, 62, 138, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    327deg,
+    rgba(0, 122, 204, 1) 0%,
+    rgba(2, 62, 138, 1) 100%
+  );
+}
+
+.MuiFormGroup-root {
+  display: flex;
+  width: 100%;
+}
+
+.register_container {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  margin: 0;
+  color: #bf1616;
+}
+
+.error-message {
+  width: 100%;
+  margin: 0;
+  color: #bf1616;
+  /* border: 1px solid #bf1616; */
+  padding: 5px;
+  text-align: center;
+}
+.register-form-container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  /* padding-top: 20px; */
+  border-radius: 10px;
+  background-color: aliceblue;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(30, 30, 30, 0.47);
+  margin: 50px 0px;
+  animation: glide 0.5s ease;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10%;
+  padding-bottom: 0;
+  gap: 10px;
+}
+
+.formInput {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5em 0;
+}
+
+.formInput.city-district {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex: 1;
+}
+.formInput.city-district .city {
+  flex: 1;
+}
+.formInput.city-district .district {
+  flex: 1;
+}
+
+@media (max-width: 500px) {
+  .formInput.city-district {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .formInput.city-district .city input {
+    width: 100%;
+  }
+  .formInput.city-district .district {
+  }
+}
+.phone {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0px 10px;
+}
+.counter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.counter button {
+  border: none;
+  color: white;
+  background-color: #22b573;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+#demo-simple-select-label {
+  background-color: aliceblue;
+}
+.login {
+  width: 100%;
+  border: none;
+  color: white;
+  border: 1px solid #22b573;
+  background-color: #22b573;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login-hover:hover {
+  background-color: rgb(255, 255, 255);
+  color: #22b573;
+}
+
+@media screen and (max-width: 850px) {
+  .register-form-container {
+    padding: 50px 10px;
+    margin: 2rem 2rem;
+  }
+}
+
+@keyframes glide {
+  0% {
+    opacity: 0;
+    transform: translate(0px, -50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
+
+/* Increase height of the phone input field */
+.phone-input {
+  width: 100%;
+}
+.react-tel-input .form-control {
+  height: 48px !important; /* Adjust this value to your desired height */
+  font-size: 16px; /* Adjust font size if needed */
+  font-weight: 400;
+  width: 100% !important;
+  border-color: rgba(0, 0, 0, 0.23);
+}
+
+.react-tel-input .special-label {
+  display: none;
+  background-color: aliceblue !important;
+  color: var(--color-gray);
+}
+
+/* General styles for other input fields */
+.react-tel-input input,
+.react-tel-input select {
+  height: 3em !important;
+  font-size: 16px !important;
+  background-color: transparent !important;
+}
+
+/* Ensure consistency across other form elements */
+.MuiInputBase-root {
+  height: 3em;
+  font-size: 16px;
+}
+
+.button-group {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+}
+.button-group.first-form {
+  justify-content: flex-end;
+}
+.button-group.second-form {
+  justify-content: space-between;
+}
+.button-group button {
+  background-color: transparent;
+  border: none;
+  color: var(--color-gray);
+  text-decoration: underline;
+  font-size: 17px;
+}
+.button-group button.active {
+  cursor: pointer;
+  color: var(--color-secondary);
+}
+
+.detailItem {
+  margin-bottom: 0.8em;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  width: 100%;
+}
+.itemKey {
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  margin-right: 0.5em;
+  width: 11em;
+  display: inline-block;
+}
+.valueKey {
+  color: var(--color-gray);
+  font-weight: 300;
+}
+.form .section {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.titleContainer {
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+
+  display: flex;
+  align-items: center;
+  color: var(--color-main);
+}
+.title {
+  font-size: 1rem;
+  font-weight: bold;
+  min-width: fit-content;
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .itemKey {
+    width: 7.5em;
+    margin-bottom: 0.2em;
+  }
+  .form {
+    padding: 9%;
+  }
+}
+
+.cards-container {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  padding: 0 15%;
+}
+.cards-container .role-card {
+  position: relative;
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1em;
+  background-color: white;
+  padding: 2em;
+  aspect-ratio: 1;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background-color 0.3s ease;
+  animation: glide 0.5s ease;
+}
+
+.cards-container .role-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #f0f0f0;
+}
+.cards-container .role-card img {
+  width: 60%;
+  aspect-ratio: 1;
+}
+.cards-container .role-card.disabled img {
+filter: grayscale(100%);
+}
+
+.cards-container .role-card h2 {
+  color: var(--color-secondary);
+  font-size: 28px;
+}
+.cards-container .role-card.disabled  h2 {
+  color:#444444;
+  font-size: 28px;
+}
+.cards-container .role-card.disabled  p {
+  color:#444444;
+  
+}
+.cards-container .role-card p {
+  color: var(--color-gray);
+  /* font-weight: 600; */
+  font-size: 15px;
+  max-width: 300px;
+}
+
+.comming-soon-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+.role-card.disabled:hover {
+  transform: scale(1);
+}
+
+.role-card .overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  color: var(--color-main);
+  font-size: 4rem;
+  line-height: 0.9em;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+
+.role-card.disabled:hover {
+  transform: scale(1.00); /* Slight zoom effect on hover */
+}
+.role-card .ribbon {
+  position: absolute;
+  z-index: 1000;
+  top: 3%;
+  background-color: var(--color-secondary);
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-radius:0 20px 20px 0;
+  left: 0;
+  /* transform: scale(1.02); Slight zoom effect on hover */
+}
+
+.terms-button {
+  display: flex !important;
+  flex-direction: row;
+}
+.terms-text .dialog-link {
+  cursor: pointer;
+  color: var(--color-secondary);
+}
+@media only screen and (max-width: 800px) {
+  .cards-container {
+    flex-direction: column;
+    gap: 2em;
+    padding-bottom: 2em;
+  }
+  .cards-container .role-card {
+    width: 100%;
+  }
+}
+
+.button-group .btn-primary0 {
+  width: 6rem;
+  padding: 7px 10px;
+  border-radius: 4px;
+  color: white;
+  background-color: var(--color-main);
+  border: solid 1px var(--color-main);
+  text-decoration: none;
+  cursor: pointer;
+}
+.button-group .btn-primary0:hover {
+  color: var(--color-main);
+  background-color: white;
+}
+.button-group .btn-primary0:disabled {
+  color: gainsboro;
+  cursor: not-allowed;
+  color: rgb(117, 117, 117);
+  background-color: rgb(202, 202, 202);
+  border: unset;
+}
+
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensure it overlays other elements */
+}

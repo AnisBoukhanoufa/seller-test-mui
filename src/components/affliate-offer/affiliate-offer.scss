@@ -1,0 +1,56 @@
+.offerAffiliate {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  margin: 5px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  position: relative;
+  font-size: 14px;
+
+  .product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+
+    .card-product-top {
+      display: flex;
+      gap: 0.7rem;
+
+      .cartProduct-left {
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+        white-space: nowrap;
+      }
+
+      .cartProduct-right {
+        display: flex;
+        flex-direction: column;
+        white-space: nowrap;
+        gap: 0.7rem;
+      }
+    }
+    .card-product-bottom {
+    }
+  }
+
+  .trash {
+    // width: 20px;
+    top: 0;
+    right: 0;
+    position: absolute;
+
+    font-size: 1.1rem;
+    padding: 0 0.5rem 0.2rem 0.5rem;
+    border-radius: inherit;
+    // margin-inline-start: 5px;
+    &:hover {
+      cursor: pointer;
+      color: red;
+    }
+  }
+}

@@ -1,0 +1,162 @@
+.stock-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 170px;
+  border: 2px solid var(--color-main);
+  border-radius: 10px;
+  padding: 15px 6px;
+  position: relative;
+  .stock-edit-button {
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    &:hover {
+      background-color: var(--color-secondary);
+      color: white;
+    }
+  }
+  .stock-title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--color-main);
+    align-self: left;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 10px;
+    button {
+      padding: 2px;
+      border-color: var(--color-secondary);
+      color: var(--color-secondary);
+    }
+  }
+  .details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .info {
+      .itemKey {
+        color: var(--color-main);
+        font-size: 15px;
+        font-weight: 600;
+        &.status {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+        }
+      }
+      .stock-value {
+        color: var(--color-gray);
+        margin: 8px 8px;
+        font-size: 15px;
+        font-weight: 600;
+      }
+    }
+    .quantity {
+      .itemKey {
+        color: var(--color-main);
+        font-size: 15px;
+        font-weight: 600;
+      }
+      .stock-value {
+        color: var(--color-gray);
+        margin: 8px 8px;
+        font-size: 15px;
+        font-weight: 600;
+      }
+      .stock-value-quantity {
+        display: flex;
+        align-items: center;
+        margin: 6px 23px;
+        .item-key-list {
+          font-size: 14px;
+          margin-right: 5px;
+        }
+        .circle {
+          height: 7px;
+          width: 7px;
+          border-radius: 50%;
+          margin-right: 8px;
+          &.availble {
+            background-color: var(--color-secondary);
+          }
+          &.in-return {
+            background-color: rgb(228, 152, 0);
+          }
+          &.dammage {
+            background-color: red;
+          }
+        }
+        &.availble {
+          color: var(--color-secondary);
+        }
+        &.in-return {
+          color: rgb(228, 152, 0);
+        }
+        &.dammage {
+          color: red;
+        }
+      }
+    }
+  }
+  .itemKey {
+    width: fit-content !important;
+    margin-right: 7px;
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  .stock-card {
+    width: 100%;
+
+    border-radius: 10px;
+    padding: 10px 6px;
+
+    .details {
+      .info {
+        .itemKey {
+          font-size: 14px;
+        }
+        .stock-value {
+          margin: 6px 6px;
+          font-size: 14px;
+        }
+      }
+      .quantity {
+        .itemKey {
+          font-size: 14px;
+        }
+        .stock-value {
+          margin: 7px 7px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .stock-card {
+    width: 90%;
+    .details {
+      .info {
+        .itemKey {
+          font-size: 14px;
+        }
+        .stock-value {
+          font-size: 14px;
+        }
+      }
+      .quantity {
+        .itemKey {
+          font-size: 14px;
+        }
+        .stock-value {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

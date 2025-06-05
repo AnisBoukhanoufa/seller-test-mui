@@ -1,0 +1,48 @@
+.warehouseCard {
+  display: flex;
+  display: column;
+  gap: 20px;
+
+  margin-bottom: 2rem;
+  //height: 27rem;
+  overflow-y: auto;
+  position: relative;
+
+  .body {
+    .detailItem {
+      margin-bottom: 10px;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      .county-image {
+        width: 1.1rem;
+        margin: 10px;
+      }
+
+      .itemKey {
+        width: 7rem;
+        color: var(--color-gray);
+      }
+
+      .valueKeyId {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .trash1 {
+    width: 20px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 0 0.5rem 0.2rem 0.5rem;
+    border-radius: inherit;
+    // margin-inline-start: 5px;
+    &:hover {
+      cursor: pointer;
+      color: red;
+    }
+  }
+}

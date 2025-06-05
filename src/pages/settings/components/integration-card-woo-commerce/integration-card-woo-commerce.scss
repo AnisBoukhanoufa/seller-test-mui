@@ -1,0 +1,44 @@
+.integration-card-woo-commerce {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  width: 100%;
+  border: 1px solid #6108ce;
+  border-radius: 16px;
+  .card-images {
+    background-color: rgba(97,8,206, 0.23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    .logo-icon-cod-toop {
+      height: 50px;
+    }
+    .logo-icon-woo-commerce {
+      height: 30px;
+    }
+  }
+  .card-details {
+    padding: 15px 15px;
+    background-color: #6108ce;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .card-title {
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .link-integration {
+        transition:  var(--transition-main);
+      :hover {
+        color: var(--color-main);
+      }
+    }
+    .link-icon {
+      padding: 0;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,96 @@
+.invoiceTable {
+  padding: 20px;
+  .searchBar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    .search {
+      width: 20%;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+
+      padding: 0px 10px;
+    }
+  }
+  .datatableTitle {
+    width: 100%;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .link {
+      text-decoration: none;
+      color: green;
+      font-size: 14px;
+      font-weight: 400;
+      border: 1px solid green;
+      padding: 5px;
+      border-radius: 5px;
+    }
+  }
+
+  .cellWithImg {
+    display: flex;
+    align-items: center;
+    .cellImg {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+  }
+
+
+  .cellAction {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .viewButton {
+      padding: 2px 10px;
+      border-radius: 5px;
+      color: rgb(255, 255, 255);
+      border: 1px solid rgba(0, 139, 51, 0.521);
+      background-color: rgba(0, 139, 51, 0.521);
+      cursor: pointer;
+
+      &:hover {
+        color: rgb(0, 139, 0);
+        background-color: transparent;
+      }
+    }
+
+    .editButton {
+      padding: 2px 10px;
+      border-radius: 5px;
+      color: rgb(255, 255, 255);
+      border: 1px solid rgba(0, 0, 139, 0.521);
+      background-color: darkblue;
+      cursor: pointer;
+
+      &:hover {
+        color: darkblue;
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+.two-values {
+  display: flex;
+  flex-direction: column;
+}
+
+.floateing-status {
+  display: inline-block;
+  // position: absolute;
+  align-self: flex-end;
+  font-size: 10px;
+  top: 5px;
+}

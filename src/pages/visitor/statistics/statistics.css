@@ -1,0 +1,122 @@
+.GPT-statistics {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+  margin: 10rem 0 15rem 0rem;
+  font-family: var(--font-family);
+  gap: 60px;
+}
+
+.stat-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.stat-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.img1 {
+  width: 45%;
+  right: -55px;
+  top: -75px;
+  position: absolute;
+  z-index: 10;
+  animation: bounce-out-down 10s ease-in-out infinite;
+}
+
+.img2 {
+  width: 90%;
+  right: -30px;
+  top: -120px;
+  position: absolute;
+  z-index: 1;
+  animation: bounce-out-down 8s ease-in-out infinite;
+}
+
+.img3 {
+  right: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: 5;
+  animation: bounce-out-down 5s ease-in-out infinite;
+}
+
+.stat-text h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 45px;
+  margin: 1rem 0;
+  color: #22b573;
+}
+
+.stat-text p {
+  color: #515151;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+@keyframes bounce-out-down {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .GPT-statistics {
+    gap: 160px;
+    flex-direction: column;
+    /* margin: 0rem 2rem; */
+    margin: 0 0 14rem 0 ;
+
+  }
+
+  .stat-text h1 {
+    font-size: 32px;
+  }
+
+  .img1 {
+    width: 45%;
+    right: -20px;
+    top: -60px;
+    position: absolute;
+    z-index: 10;
+    animation: bounce-out-down 10s ease-in-out infinite;
+  }
+
+  .img2 {
+    width: 100%;
+    right: -7px;
+    top: -90px;
+    position: absolute;
+    z-index: 1;
+    animation: bounce-out-down 8s ease-in-out infinite;
+  }
+
+  .img3 {
+    width: 110%;
+    right: -15px;
+    top: 0px;
+    position: absolute;
+    z-index: 5;
+    animation: bounce-out-down 5s ease-in-out infinite;
+  }
+}

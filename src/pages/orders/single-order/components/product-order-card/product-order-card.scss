@@ -1,0 +1,122 @@
+.product {
+  text-decoration: none; /* Remove underline */
+  color: inherit;
+  position: relative;
+  &.active {
+    background-color: white !important;
+  }
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  border-radius: 10px;
+
+  .img-container {
+    text-decoration: none; /* Remove underline */
+    color: inherit;
+    flex: 2;
+    border-radius: 10px 10px 0px 0px;
+    min-height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: "center";
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .info-container {
+    text-decoration: none; /* Remove underline */
+    color: inherit;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    .container {
+      width: 100%;
+      text-overflow: ellipsis;
+    }
+    .upsell {
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      background-color: #bcf2f6;
+      color: var(--color-main);
+    }
+    .delete {
+      position: absolute;
+      top: 5%;
+      right: 0;
+      color: red;
+      cursor: pointer;
+      scale: 1;
+      transition: scale 0.3s;
+      &:hover {
+        scale: 1.1;
+      }
+    }
+    .edit {
+      position: absolute;
+      top: 5%;
+      right: 35px;
+      color: var(--color-secondary);
+      cursor: pointer;
+      scale: 1;
+      transition: scale 0.3s;
+      &:hover {
+        scale: 1.1;
+      }
+    }
+    .title {
+      font-weight: 600;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 100%;
+      min-width: 100%;
+      margin-right: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .sub-info {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      justify-content: center;
+      .key-value-pair {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .key {
+          color: var(--color-gray);
+        }
+      }
+      .countries {
+        display: flex;
+        flex: 1;
+        width: inherit;
+        justify-content: center;
+        align-items: center;
+      }
+      .price {
+        text-align: center;
+
+        .value {
+          font-weight: bold;
+          font-size: 1.15rem;
+          color: var(--color-secondary);
+        }
+      }
+      img {
+        margin-top: 10px;
+        width: 1.8rem;
+        bottom: -1.8rem;
+        border-radius: 50%;
+      }
+    }
+  }
+}

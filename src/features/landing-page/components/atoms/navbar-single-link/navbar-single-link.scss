@@ -1,0 +1,23 @@
+.landing-navbar-link {
+  position: relative;
+  font-family: var(--font-roboto), sans-serif;
+}
+.landing-navbar-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background-color: white;
+  top: 100%;
+  left: 0%;
+  transition: all 0.3s;
+}
+.landing-navbar-link:hover::after {
+  width: 90%;
+  left: 5%;
+}
+
+.home .landing-navbar-link::after {
+  width: 90%;
+  left: 5%;
+}

@@ -1,0 +1,69 @@
+.background-circle {
+  position: absolute;
+  width: 118vw;
+  height: 118vw;
+  border-radius: 50%;
+  left: calc(50% + -118vw / 2 + 7vw);
+  top: calc(-100vw / 2.5);
+  background: linear-gradient(270deg, #023e8a 39%, #6edd26 100%);
+  filter: blur(200px);
+}
+
+.masked-logo {
+  width: 100vw;
+  position: absolute;
+  -webkit-mask-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.5),
+    transparent
+  );
+  mask-image: linear-gradient(45deg, rgba(255, 255, 255, 0.5), transparent);
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  max-width: none;
+}
+/* Small Medium Screens (768px - 1024px) */
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .background-circle {
+    width: 135vw;
+    height: 135vw;
+    left: calc(50% + -135vw / 2 + 4vw);
+    top: calc(-100vw / 2.5);
+    filter: blur(170px);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .background-circle {
+    width: 150vw;
+    height: 150vw;
+    left: calc(50% + -150vw / 2 + 2vw);
+    top: calc(-100vw / 2.5);
+    filter: blur(150px);
+  }
+}
+
+/* Small Screens (640px - 768px) */
+@media (min-width: 640px) and (max-width: 768px) {
+  .background-circle {
+    width: 170vw;
+    height: 170vw;
+    left: calc(50% + -170vw / 2 + 2vw);
+    top: calc(-100vw / 2.5);
+    filter: blur(140px);
+  }
+}
+
+/* Extra Small Screens (Below 640px) */
+@media (max-width: 640px) {
+  .background-circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(270deg, #023e8a 0%, #6edd26 119.74%);
+    border-radius: 0;
+    filter: blur(0);
+  }
+}

@@ -1,0 +1,41 @@
+.filter {
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+
+  .section-title {
+    color: var(--color-gray);
+    font-size: 1.1em;
+  }
+  .filter-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    padding-top: 0.5em;
+    .order-info-filter {
+      display: flex;
+      gap: 1em;
+      flex-direction: row;
+      .filter-elements {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6em;
+        .filter-operation {
+          display: flex;
+          width: 100%;
+          gap: 1em;
+        }
+        .filter-element {
+          width: 23em;
+          &.horizontal {
+            display: flex;
+            align-items: center;
+            gap: 1em;
+          }
+        }
+      }
+    }
+  }
+}

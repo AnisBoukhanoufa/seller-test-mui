@@ -1,0 +1,307 @@
+.newSourcing {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  .newContainer {
+    .top {
+      padding: 10px;
+      margin: 20px;
+      display: flex;
+      justify-content: center;
+
+      h1 {
+        color: var(--color-secondary);
+        font-size: 26px;
+      }
+    }
+
+    .bottom {
+      flex: 5;
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      padding: 10px;
+      margin: 20px;
+
+      form {
+        flex: 2;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 10px;
+        // justify-content: space-between;
+        .sourcing-form-container {
+          display: flex;
+
+          gap: 40px;
+          margin-bottom: 30px;
+
+          .right {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .formInput {
+              &.check-box {
+                display: flex;
+                justify-content: left;
+                align-items: center;
+
+                .checkbox {
+                  width: 50%;
+                }
+              }
+
+              width: 100%;
+
+              label {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .icon {
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+
+          .left {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 30px;
+            justify-content: space-around;
+            .description {
+              background-color: #22b573;
+              height: 120px;
+            }
+            .formInput {
+              width: 100%;
+              .checkbox {
+                display: flex;
+                align-items: center;
+              }
+
+              label {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .icon {
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+
+        .formInput.buttons {
+          display: flex;
+          justify-content: right;
+          align-items: center;
+          width: 100%;
+          .submitSourcing {
+            width: 15%;
+            height: 55px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: var(--color-secondary);
+            border: 1px solid var(--color-secondary);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 30px;
+          }
+          .add-sub-product {
+            margin-right: 10px;
+            width: 15%;
+            height: 55px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: white;
+            border: 1px solid var(--color-secondary);
+            color: var(--color-secondary);
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 30px;
+            &:disabled {
+              color: gray;
+              cursor: default;
+              border: 1px solid gray;
+            }
+          }
+        }
+      }
+
+      .left {
+        flex: 1;
+      }
+    }
+  }
+}
+
+.newSourcing {
+  width: 100%;
+  display: flex;
+
+  .error {
+    color: #bf1616;
+  }
+
+  .newContainer {
+    flex: 5;
+
+    .bottom {
+      padding: 10px;
+      margin: 20px;
+      display: flex;
+
+      .left {
+        flex: 1;
+        text-align: center;
+
+        img {
+          width: 100px;
+          height: 100px;
+          object-fit: fill;
+        }
+      }
+
+      .right {
+        flex: 2;
+
+        form {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 15px !important;
+          // justify-content:center;
+
+          .errorValidation {
+            margin: 0;
+          }
+
+          .formInput {
+            width: 40%;
+            height: unset !important;
+
+            .react-tel-input .form-control {
+              width: 100% !important;
+            }
+
+            label {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+
+              .icon {
+                cursor: pointer;
+              }
+            }
+          }
+
+          .submitEmployee {
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: var(--color-secondary);
+            border: 1px solid var(--color-secondary);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+
+            &:hover {
+              color: var(--color-secondary);
+              background-color: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.bottom.cards {
+  .added-products {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card-header h3 {
+    margin: 0;
+  }
+
+  .card-body p {
+    margin: 5px 0;
+  }
+
+  button {
+    background-color: #22b573;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    background-color: #1f9e5b;
+  }
+}
+
+.table-product {
+  display: table-cell;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell-content {
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+}
+
+.right.product-detail {
+  gap: 10px !important;
+  button.add-sub-product {
+    // width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    align-self: flex-end;
+    border-radius: 4px;
+    padding: 10px;
+
+    border: 1px solid var(--color-secondary);
+    font-weight: 60012;
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--color-secondary);
+    &:disabled {
+      cursor: default;
+      color: gray;
+      border-color: gray;
+    }
+  }
+}

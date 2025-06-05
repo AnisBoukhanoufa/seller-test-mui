@@ -1,0 +1,710 @@
+
+
+.page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.dollar::after {
+  content: " $";
+}
+.percentage::after {
+  content: " %";
+}
+.dollar-kg::after {
+  content: " $/KG";
+}
+.dollar-cbm::after {
+  content: " $/CBM";
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* height: 100%; */
+}
+
+.detailsButton {
+  padding: 2px 10px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  border: 1px solid var(--color-details);
+  background-color: var(--color-details);
+  cursor: pointer;
+}
+.detailsButton:hover {
+  color: var(--color-details);
+  background-color: transparent;
+}
+
+.viewButton {
+  display: none;
+}
+
+.callButton {
+  padding: 2px 1.2rem;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 139, 139, 0.521);
+  background-color: darkcyan;
+  cursor: pointer;
+}
+
+.callButton:hover {
+  color: darkcyan;
+  background-color: transparent;
+}
+.btn-secondary-hover:hover {
+  background-color: rgb(255, 255, 255);
+  color: #22b573;
+}
+
+.divider {
+  border-bottom: 1px solid #6d6d6d;
+}
+.v-divider {
+  border-left: 1px solid #c6c6c6;
+}
+
+.onlineStatus {
+  /* margin-right: 10px; */
+  margin-right: 0.5em;
+  width: 10px;
+  height: 10px;
+  /* Online status color */
+  border-radius: 50%;
+}
+.online {
+  background-color: rgb(0, 255, 0);
+}
+.offline {
+  background-color: gray;
+}
+.justify-content-flex-start {
+  justify-content: flex-start !important;
+}
+.padding-left-10-px {
+  padding-left: 15px !important;
+}
+.listData {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.listData .listContainer {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  /* height: 100%s; */
+}
+.listData .listContainer .listTable {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary-button {
+  height: 45px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-decoration: none !important;
+  color: white !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  border: 1px solid var(--color-main) !important;
+  padding: 5px 28px !important;
+  border-radius: 5px !important;
+  background-color: var(--color-main) !important;
+  transition: 0.3s;
+  cursor: pointer !important;
+}
+.primary-button:hover {
+  color: var(--color-main) !important;
+  background-color: white !important;
+  border-color: var(--color-main) !important;
+}
+.primary-button:disabled {
+  background-color: gray;
+}
+
+.secondary-button {
+  height: 45px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-decoration: none !important;
+  color: var(--color-secondary) !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  border: 1px solid var(--color-secondary) !important;
+  padding: 5px 22px !important;
+  border-radius: 5px !important;
+  background-color: white !important;
+  transition: 0.3s;
+  cursor: pointer !important;
+}
+.secondary-button:hover {
+  color: white !important;
+  background-color: var(--color-secondary) !important;
+}
+
+.title-page {
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-top: 10px;
+  color: var(--color-secondary);
+  text-align: center;
+}
+
+.tags-bullets {
+  background-color: var(--color-main);
+  color: white;
+  font-weight: 600;
+  padding: 3px 15px;
+  margin-right: 8px;
+  border-radius: 40px;
+  font-weight: 400;
+}
+
+.uppercase {
+  text-transform: uppercase; /* All uppercase */
+}
+
+.lowercase {
+  text-transform: lowercase; /* All lowercase */
+}
+
+.capitalize {
+  text-transform: capitalize; /* Capitalizes the first letter of each word */
+}
+
+.dialog-title {
+  text-align: center;
+  font-size: 24px !important;
+  font-weight: 800 !important;
+  color: var(--color-secondary);
+  width: 100%;
+  padding-bottom: 0 !important;
+}
+
+.gradient__bg {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    327deg,
+    rgba(0, 122, 204, 1) 0%,
+    rgba(2, 62, 138, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    327deg,
+    rgba(0, 122, 204, 1) 0%,
+    rgba(2, 62, 138, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    327deg,
+    rgba(0, 122, 204, 1) 0%,
+    rgba(2, 62, 138, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007ACC', endColorstr='#023E8A', GradientType=1 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    327deg,
+    rgba(0, 122, 204, 1) 0%,
+    rgba(2, 62, 138, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    327deg,
+    rgba(0, 122, 204, 1) 0%,
+    rgba(2, 62, 138, 1) 100%
+  );
+}
+
+.cellWithStatus {
+  padding: 0 15px;
+  border-radius: 5px;
+}
+
+.cellWithStatus.new {
+  background-color: rgba(var(--color-new-rgb), 0.1);
+  color: var(--color-new);
+  border: solid 1px var(--color-new);
+}
+
+.cellWithStatus.new:hover {
+  background-color: rgba(var(--color-new-rgb), 0.1);
+  color: var(--color-new);
+  border: solid 1px var(--color-new);
+}
+
+.cellWithStatus.regular {
+  background-color: rgba(var(--color-regular-rgb), 0.1);
+  color: var(--color-regular);
+  border: solid 1px var(--color-regular);
+}
+
+.cellWithStatus.regular:hover {
+  background-color: rgba(var(--color-regular-rgb), 0.1);
+  color: var(--color-regular);
+  border: solid 1px var(--color-regular);
+}
+.cellWithStatus.rejected {
+  background-color: rgba(var(--color-rejected-rgb), 0.1);
+  color: var(--color-rejected);
+  border: solid 1px var(--color-rejected);
+}
+
+.cellWithStatus.rejected:hover {
+  background-color: rgba(var(--color-rejected-rgb), 0.1);
+  color: var(--color-rejected);
+  border: solid 1px var(--color-rejected);
+}
+
+.cellWithStatus.irregular {
+  background-color: rgba(var(--color-irregular-rgb), 0.1);
+  color: var(--color-irregular);
+  border: solid 1px var(--color-irregular);
+}
+
+.cellWithStatus.irregular:hover {
+  background-color: rgba(var(--color-irregular-rgb), 0.1);
+  color: var(--color-irregular);
+  border: solid 1px var(--color-irregular);
+}
+
+.cellWithStatus.active {
+  background-color: rgba(var(--color-active-rgb), 0.1);
+  color: var(--color-active);
+  border: solid 1px var(--color-active);
+}
+
+.cellWithStatus.active:hover {
+  background-color: rgba(var(--color-active-rgb), 0.1);
+  color: var(--color-active);
+  border: solid 1px var(--color-active);
+}
+
+.cellWithStatus.inactive {
+  background-color: rgba(var(--color-inactive-rgb), 0.1);
+  color: var(--color-inactive);
+  border: solid 1px var(--color-inactive);
+}
+
+.cellWithStatus.inactive:hover {
+  background-color: rgba(var(--color-inactive-rgb), 0.1);
+  color: var(--color-inactive);
+  border: solid 1px var(--color-inactive);
+}
+
+.cellWithStatus.wrong {
+  background-color: rgba(var(--color-wrong-rgb), 0.1);
+  color: var(--color-wrong);
+  border: solid 1px var(--color-wrong);
+}
+
+.cellWithStatus.wrong:hover {
+  background-color: rgba(var(--color-wrong-rgb), 0.1);
+  color: var(--color-wrong);
+  border: solid 1px var(--color-wrong);
+}
+
+.cellWithStatus.confirmation {
+  background-color: rgba(var(--color-inConfirmation-rgb), 0.1);
+  color: var(--color-inConfirmation);
+  border: solid 1px var(--color-inConfirmation);
+}
+
+.cellWithStatus.confirmation:hover {
+  background-color: rgba(var(--color-inConfirmation-rgb), 0.1);
+  color: var(--color-inConfirmation);
+  border: solid 1px var(--color-inConfirmation);
+}
+
+.cellWithStatus.canceled {
+  background-color: rgba(var(--color-canceled-rgb), 0.1);
+  color: var(--color-canceled);
+  border: solid 1px var(--color-canceled);
+}
+
+.cellWithStatus.canceled:hover {
+  background-color: rgba(var(--color-canceled-rgb), 0.1);
+  color: var(--color-canceled);
+  border: solid 1px var(--color-canceled);
+}
+
+.cellWithStatus.confirmed {
+  background-color: rgba(var(--color-confirmed-rgb), 0.1);
+  color: var(--color-confirmed);
+  border: solid 1px var(--color-confirmed);
+}
+
+.cellWithStatus.confirmed:hover {
+  background-color: rgba(var(--color-confirmed-rgb), 0.1);
+  color: var(--color-confirmed);
+  border: solid 1px var(--color-confirmed);
+}
+
+.cellWithStatus.shipping {
+  background-color: rgba(var(--color-shipping-rgb), 0.1);
+  color: var(--color-shipping);
+  border: solid 1px var(--color-shipping);
+}
+
+.cellWithStatus.shipping:hover {
+  background-color: rgba(var(--color-shipping-rgb), 0.1);
+  color: var(--color-shipping);
+  border: solid 1px var(--color-shipping);
+}
+
+.cellWithStatus.dispatch {
+  background-color: rgba(var(--color-new-rgb), 0.1);
+  color: var(--color-dispatched);
+  border: solid 1px var(--color-dispatched);
+}
+
+.cellWithStatus.dispatch:hover {
+  background-color: rgba(var(--color-new-rgb), 0.1);
+  color: var(--color-dispatched);
+  border: solid 1px var(--color-dispatched);
+}
+
+.cellWithStatus.delivered {
+  background-color: rgba(var(--color-delivered-rgb), 0.1);
+  color: var(--color-delivered);
+  border: solid 1px var(--color-delivered);
+}
+
+.cellWithStatus.delivered:hover {
+  background-color: rgba(var(--color-delivered-rgb), 0.1);
+  color: var(--color-delivered);
+  border: solid 1px var(--color-delivered);
+}
+
+.cellWithStatus.expired {
+  background-color: rgba(var(--color-expired-rgb), 0.1);
+  color: var(--color-expired);
+  border: solid 1px var(--color-expired);
+}
+.cellWithStatus.expired:hover {
+  background-color: rgba(var(--color-expired-rgb), 0.1);
+  color: var(--color-expired);
+  border: solid 1px var(--color-expired);
+}
+
+.cellWithStatus.returned {
+  background-color: rgba(var(--color-returned-rgb), 0.1);
+  color: var(--color-returned);
+  border: solid 1px var(--color-returned);
+}
+
+.cellWithStatus.returned:hover {
+  background-color: rgba(var(--color-returned-rgb), 0.1);
+  color: var(--color-returned);
+  border: solid 1px var(--color-returned);
+}
+
+.cellWithStatus.return {
+  background-color: rgba(var(--color-return-rgb), 0.1);
+  color: var(--color-return);
+  border: solid 1px var(--color-return);
+}
+
+.cellWithStatus.return:hover {
+  background-color: rgba(var(--color-return-rgb), 0.1);
+  color: var(--color-return);
+  border: solid 1px var(--color-return);
+}
+
+.cellWithStatus.purchased {
+  background-color: rgba(var(--color-purchased-rgb), 0.1);
+  color: var(--color-purchased);
+  border: solid 1px var(--color-purchased);
+}
+
+.cellWithStatus.purchased:hover {
+  background-color: rgba(var(--color-purchased-rgb), 0.1);
+  color: var(--color-purchased);
+  border: solid 1px var(--color-purchased);
+}
+
+.cellWithStatus.search {
+  background-color: rgba(var(--color-search-rgb), 0.1);
+  color: var(--color-search);
+  border: solid 1px var(--color-search);
+}
+
+.cellWithStatus.search:hover {
+  background-color: rgba(var(--color-search-rgb), 0.1);
+  color: var(--color-search);
+  border: solid 1px var(--color-search);
+}
+
+.cellWithStatus.local {
+  background-color: rgba(var(--color-local-rgb), 0.1);
+  color: var(--color-local);
+  border: solid 1px var(--color-local);
+}
+
+.cellWithStatus.local:hover {
+  background-color: rgba(var(--color-local-rgb), 0.1);
+  color: var(--color-local);
+  border: solid 1px var(--color-local);
+}
+
+.cellWithStatus.international {
+  background-color: rgba(var(--color-international-rgb), 0.1);
+  color: var(--color-international);
+  border: solid 1px var(--color-international);
+}
+
+.cellWithStatus.international:hover {
+  background-color: rgba(var(--color-international-rgb), 0.1);
+  color: var(--color-international);
+  border: solid 1px var(--color-international);
+}
+
+.cellWithStatus.payed {
+  background-color: rgba(var(--color-payed-rgb), 0.1);
+  color: var(--color-payed);
+  border: solid 1px var(--color-payed);
+}
+
+.cellWithStatus.payed:hover {
+  background-color: rgba(var(--color-payed-rgb), 0.1);
+  color: var(--color-payed);
+  border: solid 1px var(--color-payed);
+}
+
+.cellWithStatus.process {
+  background-color: rgba(var(--color-process-rgb), 0.1);
+  color: var(--color-process);
+  border: solid 1px var(--color-process);
+}
+
+.cellWithStatus.process:hover {
+  background-color: rgba(var(--color-process-rgb), 0.1);
+  color: var(--color-process);
+  border: solid 1px var(--color-process);
+}
+
+.cellWithStatus.test {
+  background-color: rgba(var(--color-test-rgb), 0.1);
+  color: var(--color-test);
+  border: solid 1px var(--color-test);
+}
+
+.cellWithStatus.test:hover {
+  background-color: rgba(var(--color-test-rgb), 0.1);
+  color: var(--color-test);
+  border: solid 1px var(--color-test);
+}
+.cellWithStatus.all {
+  background-color: rgba(var(--color-main-rgb), 0.1);
+  color: var(--color-main);
+  border: solid 1px var(--color-main);
+}
+
+.cellWithStatus.all:hover {
+  background-color: rgba(var(--color-main-rgb), 0.1);
+  color: var(--color-main);
+  border: solid 1px var(--color-main);
+}
+.cellWithStatus.sourcing {
+  background-color: rgba(var(--color-sourcing-rgb), 0.1);
+  color: var(--color-sourcing);
+  border: solid 1px var(--color-sourcing);
+}
+
+.cellWithStatus.sourcing:hover {
+  background-color: rgba(var(--color-sourcing-rgb), 0.1);
+  color: var(--color-sourcing);
+  border: solid 1px var(--color-sourcing);
+}
+
+.cellWithStatus.available {
+  background-color: rgba(var(--color-available-rgb), 0.1);
+  color: var(--color-available);
+  border: solid 1px var(--color-available);
+}
+
+.cellWithStatus.available:hover {
+  background-color: rgba(var(--color-available-rgb), 0.1);
+  color: var(--color-available);
+  border: solid 1px var(--color-available);
+}
+
+.cellWithStatus.hold {
+  background-color: rgba(var(--color-hold-rgb), 0.1);
+  color: var(--color-hold);
+  border: solid 1px var(--color-hold);
+}
+
+.cellWithStatus.hold:hover {
+  background-color: rgba(var(--color-hold-rgb), 0.1);
+  color: var(--color-hold);
+  border: solid 1px var(--color-hold);
+}
+
+.cellWithStatus.stock {
+  background-color: rgba(var(--color-stock-rgb), 0.1);
+  color: var(--color-stock);
+  border: solid 1px var(--color-stock);
+}
+
+.cellWithStatus.stock:hover {
+  background-color: rgba(var(--color-stock-rgb), 0.1);
+  color: var(--color-stock);
+  border: solid 1px var(--color-stock);
+}
+
+.cellWithStatus.duplicate {
+  background-color: rgba(var(--color-duplicate-rgb), 0.1);
+  color: var(--color-duplicate);
+  border: solid 1px var(--color-duplicate);
+}
+
+.cellWithStatus.duplicate:hover {
+  background-color: rgba(var(--color-duplicate-rgb), 0.1);
+  color: var(--color-duplicate);
+  border: solid 1px var(--color-duplicate);
+}
+
+.cellWithStatus.amateur {
+  background-color: rgba(var(--color-amateur-rgb), 0.1);
+  color: var(--color-amateur);
+  border: solid 1px var(--color-amateur);
+}
+
+.cellWithStatus.amateur:hover {
+  background-color: rgba(var(--color-amateur-rgb), 0.1);
+  color: var(--color-amateur);
+  border: solid 1px var(--color-amateur);
+}
+
+.cellWithStatus.beginner {
+  background-color: rgba(var(--color-beginner-rgb), 0.1);
+  color: var(--color-beginner);
+  border: solid 1px var(--color-beginner);
+}
+
+.cellWithStatus.beginner:hover {
+  background-color: rgba(var(--color-beginner-rgb), 0.1);
+  color: var(--color-beginner);
+  border: solid 1px var(--color-beginner);
+}
+
+.cellWithStatus.professional {
+  background-color: rgba(var(--color-professional-rgb), 0.1);
+  color: var(--color-professional);
+  border: solid 1px var(--color-professional);
+}
+
+.cellWithStatus.professional:hover {
+  background-color: rgba(var(--color-professional-rgb), 0.1);
+  color: var(--color-professional);
+  border: solid 1px var(--color-professional);
+}
+
+.cellWithStatus.banned {
+  background-color: rgba(var(--color-banned-rgb), 0.1);
+  color: var(--color-banned);
+  border: solid 1px var(--color-banned);
+}
+
+.cellWithStatus.banned:hover {
+  background-color: rgba(var(--color-banned-rgb), 0.1);
+  color: var(--color-banned);
+  border: solid 1px var(--color-banned);
+}
+
+.cellWithStatus.received {
+  background-color: rgba(var(--color-received-rgb), 0.1);
+  color: var(--color-received);
+  border: solid 1px var(--color-received);
+}
+
+.cellWithStatus.received:hover {
+  background-color: rgba(var(--color-received-rgb), 0.1);
+  color: var(--color-received);
+  border: solid 1px var(--color-received);
+}
+
+.cellWithStatus.duplicated {
+  background-color: rgba(var(--color-duplicated-rgb), 0.1);
+  color: var(--color-duplicated);
+  border: solid 1px var(--color-duplicated);
+}
+
+.cellWithStatus.duplicated:hover {
+  background-color: rgba(var(--color-duplicated-rgb), 0.1);
+  color: var(--color-duplicated);
+  border: solid 1px var(--color-duplicated);
+}
+.loader-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader-container-visitor {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader {
+  width: 80px;
+  aspect-ratio: 1;
+  --_g: no-repeat radial-gradient(farthest-side, var(--color-main) 90%, #0000);
+  background: var(--_g), var(--_g), var(--_g);
+  background-size: 25% 25%;
+  animation: l17 1s infinite;
+}
+.loader-visitor {
+  width: 80px;
+  aspect-ratio: 1;
+  --_g: no-repeat radial-gradient(farthest-side, white 90%, #0000);
+  background: var(--_g), var(--_g), var(--_g);
+  background-size: 25% 25%;
+  animation: l17 1s infinite;
+}
+@keyframes l17 {
+  0% {
+    background-position: 0% -100%, 50% -100%, 100% -100%;
+  }
+  16.67% {
+    background-position: 0% 50%, 50% -100%, 100% -100%;
+  }
+  33.33% {
+    background-position: 0% 50%, 50% 50%, 100% -100%;
+  }
+  45%,
+  55% {
+    background-position: 0% 50%, 50% 50%, 100% 50%;
+  }
+  66.67% {
+    background-position: 0% 200%, 50% 50%, 100% 50%;
+  }
+  83.33% {
+    background-position: 0% 200%, 50% 200%, 100% 50%;
+  }
+  100% {
+    background-position: 0% 200%, 50% 200%, 100% 200%;
+  }
+}

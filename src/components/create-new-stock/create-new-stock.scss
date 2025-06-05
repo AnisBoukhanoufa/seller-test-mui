@@ -1,0 +1,40 @@
+.create-stock-container {
+  height: fit-content;
+  width: fit-content;
+  display: flex !important;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .key {
+    font-size: 16px;
+    color: var(--color-gray);
+  }
+  .sourcing-warehouse {
+    margin-top: 7px;
+    flex: 1;
+    width: 100%;
+    .warehouses {
+      .add-warehouse {
+        display: flex;
+        gap: 10px;
+        .add-button {
+          align-self: center;
+        }
+      }
+
+      .stocks-list {
+        margin-top: 10px;
+        margin-left: 15px;
+      }
+      .alert {
+        color: red;
+        margin-top: 12px;
+      }
+    }
+    .note {
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.widgets {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+  gap: 20px;
+
+  overflow-x: auto;
+  .widget-row {
+    display: flex;
+    gap: 20px;
+  }
+}

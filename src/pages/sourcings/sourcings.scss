@@ -1,0 +1,122 @@
+.datatableSourcing {
+  padding: 20px;
+
+  .datatableTitle {
+    width: 100%;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .search {
+      // width: 20%;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      // margin: 0px 0px 10px 0px;
+      padding: 0px 10px;
+    }
+    .link {
+      height: 45px;
+      width: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: green;
+      font-size: 14px;
+      font-weight: 400;
+      border: 1px solid green;
+      padding: 5px;
+      border-radius: 5px;
+    }
+  }
+
+  .cellWithImg {
+    display: flex;
+    align-items: center;
+    .cellImg {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+  }
+  .cellAction {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .viewButton {
+      padding: 2px 10px;
+      border-radius: 5px;
+      color: rgb(255, 255, 255);
+      border: 1px solid rgba(0, 139, 51, 0.521);
+      background-color: rgba(0, 139, 51, 0.521);
+      cursor: pointer;
+
+      &:hover {
+        color: rgb(0, 139, 0);
+        background-color: transparent;
+      }
+    }
+
+    .editButton {
+      padding: 2px 10px;
+      border-radius: 5px;
+      color: rgb(255, 255, 255);
+      border: 1px solid rgba(0, 0, 139, 0.521);
+      background-color: darkblue;
+      cursor: pointer;
+
+      &:hover {
+        color: darkblue;
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+.new-menu {
+  height: 45px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color-secondary);
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid var(--color-secondary);
+  padding: 5px;
+  border-radius: 5px;
+  &:hover {
+    border-color: var(--color-secondary);
+    color: white;
+    background-color: var(--color-secondary);
+  }
+}
+
+.new-list {
+  ul {
+    padding: 0 !important;
+    li {
+      padding: 0 !important;
+      a.link {
+        text-decoration: none;
+        color: var(--color-secondary);
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        padding: 6px 16px;
+      }
+      &:hover {
+        a.link {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

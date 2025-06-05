@@ -1,0 +1,2753 @@
+{
+  "electronics": {
+    "audio equipment": {
+      "headphones": {
+        "over-ear": {
+          "type": ["wired", "wireless"],
+          "features": ["noise-cancelling", "sweat-resistant"]
+        },
+        "in-ear": {
+          "type": ["wired", "wireless"],
+          "features": ["noise-isolating", "bluetooth"]
+        },
+        "on-ear": {
+          "type": ["wired", "wireless"],
+          "features": ["foldable", "adjustable"]
+        }
+      },
+      "speakers": {
+        "portable speakers": {
+          "type": ["bluetooth", "waterproof"],
+          "features": ["rechargeable", "built-in microphone"]
+        },
+        "home speakers": {
+          "type": ["bookshelf", "floorstanding"],
+          "features": ["wi-fi", "multi-room"]
+        },
+        "soundbars": {
+          "size": ["standard", "compact"],
+          "features": ["subwoofer", "dolby atmos"]
+        }
+      }
+    },
+    "computing devices": {
+      "laptops": {
+        "ultrabooks": {
+          "screen size": ["13\"", "14\""],
+          "features": ["lightweight", "long battery life"]
+        },
+        "gaming laptops": {
+          "screen size": ["15\"", "17\""],
+          "features": ["high refresh rate", "dedicated GPU"]
+        },
+        "2-in-1 laptops": {
+          "type": ["convertible", "detachable"],
+          "screen size": ["11\"", "15\""]
+        }
+      },
+      "desktops": {
+        "all-in-one pcs": {
+          "screen size": ["21\"", "27\""],
+          "features": ["touchscreen", "compact design"]
+        },
+        "gaming desktops": {
+          "form factor": ["tower", "mini-tower"],
+          "features": ["RGB lighting", "high performance"]
+        },
+        "workstations": {
+          "features": ["powerful CPU", "large RAM"],
+          "use case": ["design", "engineering"]
+        }
+      }
+    },
+    "mobile devices": {
+      "smartphones": {
+        "android phones": {
+          "screen size": ["5\"", "6\"", "7\""],
+          "features": ["5G", "high refresh rate"]
+        },
+        "iphones": {
+          "model": ["iPhone 13", "14", "15"],
+          "features": ["camera quality", "face ID"]
+        },
+        "accessories": {
+          "type": ["cases", "screen protectors"],
+          "compatibility": ["universal", "model-specific"]
+        }
+      },
+      "tablets": {
+        "standard tablets": {
+          "screen size": ["8\"", "10\""],
+          "features": ["wi-fi", "cellular options"]
+        },
+        "pro tablets": {
+          "screen size": ["11\"", "12.9\""],
+          "features": ["stylus support", "high performance"]
+        },
+        "accessories": {
+          "type": ["keyboards", "covers"],
+          "compatibility": ["universal", "model-specific"]
+        }
+      }
+    },
+    "wearable technology": {
+      "smartwatches": {
+        "fitness trackers": {
+          "features": ["heart rate monitor", "GPS"],
+          "compatibility": ["iOS", "Android"]
+        },
+        "smartwatches": {
+          "features": ["notifications", "music control"],
+          "compatibility": ["iOS", "Android"]
+        },
+        "hybrid watches": {
+          "features": ["analog display", "smart notifications"],
+          "compatibility": ["iOS", "Android"]
+        }
+      },
+      "fitness bands": {
+        "basic bands": {
+          "features": ["step tracking", "sleep monitoring"],
+          "compatibility": ["iOS", "Android"]
+        },
+        "advanced bands": {
+          "features": ["heart rate", "SpO2 monitoring"],
+          "compatibility": ["iOS", "Android"]
+        }
+      }
+    },
+    "cameras & photography": {
+      "digital cameras": {
+        "dslrs": {
+          "megapixels": ["20MP", "30MP"],
+          "features": ["interchangeable lenses", "manual controls"]
+        },
+        "mirrorless cameras": {
+          "megapixels": ["20MP", "24MP"],
+          "features": ["compact design", "fast autofocus"]
+        },
+        "point-and-shoot cameras": {
+          "megapixels": ["16MP", "20MP"],
+          "features": ["zoom lens", "compact"]
+        }
+      },
+      "accessories": {
+        "lenses": {
+          "type": ["wide angle", "telephoto"],
+          "compatibility": ["DSLR", "mirrorless"]
+        },
+        "tripods": {
+          "type": ["tabletop", "full-size"],
+          "features": ["adjustable height", "lightweight"]
+        },
+        "camera bags": {
+          "type": ["backpack", "sling"],
+          "size": ["standard", "large"]
+        }
+      }
+    },
+    "home appliances": {
+      "smart home devices": {
+        "smart speakers": {
+          "type": ["Amazon Echo", "Google Nest"],
+          "features": ["voice control", "multi-room audio"]
+        },
+        "smart plugs": {
+          "type": ["Wi-Fi", "Bluetooth"],
+          "features": ["energy monitoring", "timer functions"]
+        },
+        "smart thermostats": {
+          "features": ["learning", "remote control"],
+          "compatibility": ["HVAC systems"]
+        }
+      },
+      "kitchen appliances": {
+        "mixers": {
+          "type": ["stand", "handheld"],
+          "features": ["multiple attachments", "speed settings"]
+        },
+        "coffee makers": {
+          "type": ["drip", "espresso", "pod"],
+          "features": ["programmable", "built-in grinder"]
+        },
+        "air fryers": {
+          "capacity": ["3QT", "5QT"],
+          "features": ["digital controls", "presets"]
+        }
+      }
+    },
+    "gaming": {
+      "consoles": {
+        "home consoles": {
+          "type": ["PlayStation", "Xbox", "Nintendo Switch"],
+          "features": ["4K gaming", "VR support"]
+        },
+        "handheld consoles": {
+          "type": ["Nintendo Switch Lite", "Steam Deck"],
+          "features": ["portable", "long battery life"]
+        }
+      },
+      "gaming accessories": {
+        "controllers": {
+          "type": ["standard", "custom"],
+          "compatibility": ["PS", "Xbox", "PC"]
+        },
+        "vr headsets": {
+          "type": ["Oculus", "HTC Vive"],
+          "features": ["wireless", "motion tracking"]
+        },
+        "gaming chairs": {
+          "type": ["racing style", "reclining"],
+          "features": ["ergonomic", "adjustable"]
+        }
+      }
+    },
+    "networking": {
+      "routers": {
+        "standard routers": {
+          "speed": ["AC1200", "AC1900"],
+          "features": ["dual-band", "guest network"]
+        },
+        "mesh systems": {
+          "type": ["single pack", "multi-pack"],
+          "coverage area": ["up to 5000 sq ft"]
+        }
+      },
+      "modems": {
+        "cable modems": {
+          "compatibility": ["Xfinity", "Spectrum"],
+          "speed": ["DOCSIS 3.0", "3.1"]
+        },
+        "dsl modems": {
+          "compatibility": ["AT&T", "Verizon"],
+          "speed": ["standard", "high speed"]
+        }
+      }
+    },
+    "accessories": {
+      "cables & adapters": {
+        "usb cables": {
+          "type": ["USB-A to USB-C", "Lightning"],
+          "length": ["1 ft", "6 ft"]
+        },
+        "hdmi cables": {
+          "version": ["standard", "high-speed"],
+          "length": ["3 ft", "10 ft"]
+        },
+        "adapters": {
+          "type": ["USB-C to HDMI", "AUX to RCA"],
+          "compatibility": ["universal"]
+        }
+      },
+      "storage devices": {
+        "external hard drives": {
+          "capacity": ["1TB", "2TB", "4TB"],
+          "type": ["HDD", "SSD"]
+        },
+        "usb flash drives": {
+          "capacity": ["16GB", "64GB", "256GB"],
+          "features": ["encryption", "waterproof"]
+        },
+        "memory cards": {
+          "type": ["SD", "MicroSD"],
+          "capacity": ["32GB", "128GB", "256GB"]
+        }
+      }
+    }
+  },
+
+  "home_and_kitchen": {
+    "kitchen_appliances": {
+      "small_appliances": {
+        "blenders": {
+          "type": ["countertop", "immersion"],
+          "features": ["high-speed", "personal"]
+        },
+        "food_processors": {
+          "size": ["small", "large"],
+          "features": ["multi-functional", "dishwasher safe"]
+        },
+        "coffee_makers": {
+          "type": ["drip", "espresso", "french press"],
+          "features": ["programmable", "single serve"]
+        },
+        "toasters_and_toaster_ovens": {
+          "type": ["2-slice", "4-slice"],
+          "features": ["bagel function", "convection"]
+        }
+      },
+      "large_appliances": {
+        "refrigerators": {
+          "type": ["french door", "side-by-side"],
+          "features": ["energy star", "smart fridge"]
+        },
+        "ovens": {
+          "type": ["electric", "gas", "wall"],
+          "features": ["convection", "self-cleaning"]
+        },
+        "dishwashers": {
+          "type": ["built-in", "portable"],
+          "features": ["energy efficient", "quiet operation"]
+        },
+        "microwaves": {
+          "type": ["countertop", "over-the-range"],
+          "features": ["sensor cooking", "inverter technology"]
+        }
+      }
+    },
+    "cookware_and_bakeware": {
+      "cookware": {
+        "pots_and_pans": {
+          "type": ["non-stick", "stainless steel"],
+          "size": ["10\"", "12\"", "14\""]
+        },
+        "dutch_ovens": {
+          "material": ["cast iron", "enamel"],
+          "size": ["3 qt", "5 qt"]
+        },
+        "pressure_cookers": {
+          "type": ["electric", "stovetop"],
+          "size": ["4 qt", "6 qt"]
+        },
+        "skillets": {
+          "material": ["cast iron", "non-stick"],
+          "size": ["8\"", "10\"", "12\""]
+        }
+      },
+      "bakeware": {
+        "baking_sheets": {
+          "type": ["half-sheet", "quarter-sheet"],
+          "material": ["aluminum", "non-stick"]
+        },
+        "cake_pans": {
+          "type": ["round", "square", "bundt"],
+          "material": ["metal", "glass"]
+        },
+        "muffin_tins": {
+          "size": ["12-cup", "24-cup"],
+          "material": ["non-stick", "silicone"]
+        },
+        "pie_dishes": {
+          "material": ["glass", "ceramic"],
+          "size": ["9\"", "10\""]
+        }
+      }
+    },
+    "tableware": {
+      "dinnerware_sets": {
+        "plates": {
+          "type": ["dinner", "salad", "dessert"],
+          "material": ["ceramic", "porcelain", "stoneware"]
+        },
+        "bowls": {
+          "type": ["soup", "serving", "salad"],
+          "material": ["glass", "melamine"]
+        },
+        "utensils": {
+          "type": ["forks", "knives", "spoons"],
+          "material": ["stainless steel", "plastic"]
+        }
+      },
+      "glassware": {
+        "drinking_glasses": {
+          "type": ["tumblers", "wine", "beer"],
+          "material": ["glass", "plastic"]
+        },
+        "mugs": {
+          "type": ["ceramic", "travel", "insulated"],
+          "size": ["12 oz", "16 oz"]
+        },
+        "pitchers": {
+          "material": ["glass", "plastic"],
+          "size": ["64 oz", "96 oz"]
+        }
+      }
+    },
+    "kitchen_storage": {
+      "containers": {
+        "food_storage_containers": {
+          "type": ["glass", "plastic"],
+          "size": ["small", "medium", "large"]
+        },
+        "spice_jars": {
+          "type": ["glass", "plastic"],
+          "features": ["with labels", "airtight"]
+        },
+        "baskets": {
+          "material": ["wicker", "plastic"],
+          "size": ["small", "medium", "large"]
+        }
+      },
+      "organizers": {
+        "drawer_organizers": {
+          "type": ["adjustable", "fixed"],
+          "size": ["standard", "deep"]
+        },
+        "shelf_risers": {
+          "material": ["plastic", "metal"],
+          "size": ["standard", "adjustable"]
+        },
+        "pantry_storage_bins": {
+          "type": ["clear", "opaque"],
+          "size": ["small", "large"]
+        }
+      }
+    },
+    "home_decor": {
+      "wall_decor": {
+        "artwork": {
+          "type": ["framed prints", "canvases"],
+          "style": ["abstract", "landscape"]
+        },
+        "mirrors": {
+          "type": ["wall-mounted", "full-length"],
+          "shape": ["round", "rectangular"]
+        },
+        "wall_clocks": {
+          "type": ["analog", "digital"],
+          "style": ["modern", "vintage"]
+        }
+      },
+      "textiles": {
+        "rugs": {
+          "type": ["area", "runner"],
+          "material": ["wool", "synthetic"],
+          "size": ["small", "large"]
+        },
+        "curtains": {
+          "type": ["sheer", "blackout"],
+          "size": ["standard", "custom"]
+        },
+        "throw_pillows": {
+          "material": ["cotton", "polyester"],
+          "size": ["18\"x18\"", "20\"x20\""]
+        }
+      }
+    },
+    "cleaning_supplies": {
+      "general_cleaning": {
+        "brooms_and_mops": {
+          "type": ["push broom", "swiffer"],
+          "features": ["dustpan", "refillable pads"]
+        },
+        "vacuum_cleaners": {
+          "type": ["upright", "robot", "handheld"],
+          "features": ["bagless", "HEPA filter"]
+        },
+        "cleaning_cloths": {
+          "type": ["microfiber", "cotton"],
+          "size": ["standard", "large"]
+        }
+      },
+      "specialized_cleaning": {
+        "window_cleaners": {
+          "type": ["squeegee", "spray"],
+          "features": ["multi-surface", "streak-free"]
+        },
+        "bathroom_cleaners": {
+          "type": ["tile", "toilet", "multi-surface"],
+          "features": ["eco-friendly", "antibacterial"]
+        },
+        "all_purpose_cleaners": {
+          "type": ["spray", "concentrate"],
+          "features": ["natural", "chemical-based"]
+        }
+      }
+    },
+    "bed_and_bath": {
+      "bedding": {
+        "sheets": {
+          "type": ["fitted", "flat", "pillowcases"],
+          "material": ["cotton", "microfiber"],
+          "size": ["twin", "queen", "king"]
+        },
+        "comforters_and_duvets": {
+          "material": ["down", "synthetic"],
+          "size": ["twin", "full", "king"]
+        },
+        "pillows": {
+          "type": ["memory foam", "down", "synthetic"],
+          "size": ["standard", "queen", "king"]
+        }
+      },
+      "bathroom_accessories": {
+        "towels": {
+          "type": ["bath", "hand", "washcloth"],
+          "material": ["cotton", "microfiber"],
+          "size": ["standard", "oversized"]
+        },
+        "shower_curtains": {
+          "material": ["fabric", "vinyl"],
+          "size": ["standard", "extra long"]
+        },
+        "bath_mats": {
+          "material": ["cotton", "memory foam"],
+          "size": ["standard", "runner"]
+        }
+      }
+    },
+    "outdoor_living": {
+      "patio_furniture": {
+        "lounge_chairs": {
+          "type": ["reclining", "folding"],
+          "material": ["metal", "wood", "plastic"]
+        },
+        "dining_sets": {
+          "size": ["2-person", "4-person", "6-person"],
+          "material": ["wood", "metal"]
+        },
+        "umbrellas": {
+          "size": ["6'", "9'", "11'"],
+          "features": ["tilt", "crank"]
+        }
+      },
+      "grilling_accessories": {
+        "grill_tools": {
+          "type": ["spatula", "tongs", "brush"],
+          "material": ["stainless steel", "wooden"]
+        },
+        "grill_covers": {
+          "size": ["standard", "custom fit"],
+          "material": ["water-resistant", "UV-protected"]
+        },
+        "outdoor_cookware": {
+          "type": ["skewers", "grill baskets"],
+          "material": ["stainless steel", "cast iron"]
+        }
+      }
+    }
+  },
+  "clothing": {
+    "women's_clothing": {
+      "tops": {
+        "t-shirts": {
+          "type": ["basic", "graphic"],
+          "material": ["cotton", "polyester"]
+        },
+        "blouses": {
+          "style": ["button-up", "peplum"],
+          "features": ["long sleeve", "short sleeve"]
+        },
+        "sweaters": {
+          "material": ["wool", "knit"],
+          "style": ["crewneck", "v-neck"]
+        },
+        "tank_tops": {
+          "style": ["basic", "ribbed"],
+          "features": ["spaghetti strap", "sleeveless"]
+        }
+      },
+      "bottoms": {
+        "jeans": {
+          "fit": ["skinny", "straight", "bootcut"],
+          "material": ["denim", "stretch"]
+        },
+        "skirts": {
+          "style": ["pencil", "a-line"],
+          "length": ["mini", "midi", "maxi"]
+        },
+        "trousers": {
+          "fit": ["slim", "relaxed"],
+          "material": ["cotton", "linen"]
+        },
+        "shorts": {
+          "style": ["bermuda", "high-waisted"],
+          "features": ["distressed", "pleated"]
+        }
+      },
+      "dresses": {
+        "casual_dresses": {
+          "style": ["shift", "a-line"],
+          "features": ["sleeveless", "long sleeve"]
+        },
+        "evening_dresses": {
+          "type": ["maxi", "midi"],
+          "material": ["silk", "satin"]
+        },
+        "wrap_dresses": {
+          "material": ["jersey", "silk"],
+          "style": ["short sleeve", "long sleeve"]
+        },
+        "shift_dresses": {
+          "features": ["loose fit", "high neck"]
+        }
+      },
+      "outerwear": {
+        "jackets": {
+          "type": ["bomber", "denim", "trench"],
+          "material": ["cotton", "leather"]
+        },
+        "coats": {
+          "style": ["peacoat", "overcoat"],
+          "features": ["double-breasted", "wool blend"]
+        },
+        "blazers": {
+          "fit": ["tailored", "loose"],
+          "material": ["wool", "linen"]
+        },
+        "cardigans": {
+          "material": ["knit", "cashmere"],
+          "style": ["open-front", "buttoned"]
+        }
+      }
+    },
+    "men's_clothing": {
+      "tops": {
+        "t-shirts": {
+          "style": ["crewneck", "v-neck"],
+          "material": ["cotton", "polyester"]
+        },
+        "polo_shirts": {
+          "features": ["slim fit", "regular fit"],
+          "material": ["cotton", "pique"]
+        },
+        "shirts": {
+          "type": ["button-down", "henley"],
+          "features": ["long sleeve", "short sleeve"]
+        },
+        "sweaters": {
+          "style": ["crewneck", "v-neck"],
+          "material": ["wool", "cashmere"]
+        }
+      },
+      "bottoms": {
+        "jeans": {
+          "fit": ["slim", "straight", "relaxed"],
+          "material": ["denim", "stretch"]
+        },
+        "chinos": {
+          "style": ["slim fit", "classic fit"],
+          "material": ["cotton", "twill"]
+        },
+        "shorts": {
+          "length": ["knee-length", "bermuda"],
+          "style": ["flat-front", "pleated"]
+        },
+        "sweatpants": {
+          "style": ["jogger", "fleece-lined"],
+          "features": ["elastic waist", "drawstring"]
+        }
+      },
+      "suits_and_blazers": {
+        "suits": {
+          "fit": ["slim", "regular"],
+          "material": ["wool", "linen"]
+        },
+        "blazers": {
+          "type": ["single-breasted", "double-breasted"],
+          "material": ["cotton", "wool"]
+        },
+        "sport_coats": {
+          "features": ["textured", "plaid"],
+          "fit": ["tailored", "regular"]
+        },
+        "vests": {
+          "material": ["wool", "tweed"],
+          "style": ["formal", "casual"]
+        }
+      },
+      "outerwear": {
+        "jackets": {
+          "type": ["bomber", "leather"],
+          "material": ["polyester", "wool"]
+        },
+        "coats": {
+          "style": ["peacoat", "trench coat"],
+          "material": ["wool", "cotton"]
+        },
+        "parkas": {
+          "features": ["insulated", "hooded"],
+          "material": ["nylon", "fleece-lined"]
+        },
+        "raincoats": {
+          "material": ["waterproof", "rubberized"],
+          "style": ["trench", "packable"]
+        }
+      }
+    },
+    "activewear_and_athleisure": {
+      "tops": {
+        "sports_bras": {
+          "style": ["high-impact", "medium-impact"],
+          "material": ["nylon", "spandex"]
+        },
+        "tank_tops": {
+          "features": ["moisture-wicking", "sleeveless"],
+          "material": ["polyester", "spandex"]
+        },
+        "hoodies": {
+          "style": ["zip-up", "pullover"],
+          "material": ["cotton", "fleece-lined"]
+        },
+        "t-shirts": {
+          "fit": ["loose", "fitted"],
+          "material": ["cotton", "spandex"]
+        }
+      },
+      "bottoms": {
+        "leggings": {
+          "fit": ["full-length", "capri"],
+          "material": ["spandex", "nylon"]
+        },
+        "joggers": {
+          "fit": ["slim", "relaxed"],
+          "material": ["fleece", "polyester"]
+        },
+        "athletic_shorts": {
+          "style": ["running", "training"],
+          "material": ["polyester", "mesh"]
+        },
+        "sweatpants": {
+          "material": ["cotton", "fleece"],
+          "features": ["elastic waist", "drawstring"]
+        }
+      },
+      "outerwear": {
+        "windbreakers": {
+          "material": ["nylon", "polyester"],
+          "features": ["packable", "water-resistant"]
+        },
+        "jackets": {
+          "type": ["running", "cycling"],
+          "material": ["reflective", "waterproof"]
+        },
+        "performance_coats": {
+          "material": ["down", "insulated"],
+          "features": ["breathable", "thermal"]
+        }
+      }
+    },
+    "children's_clothing": {
+      "tops": {
+        "t-shirts": {
+          "style": ["graphic", "plain"],
+          "features": ["short sleeve", "long sleeve"]
+        },
+        "sweaters": {
+          "material": ["cotton", "wool"],
+          "style": ["pullover", "cardigan"]
+        },
+        "hoodies": {
+          "type": ["zipped", "pullover"],
+          "features": ["fleece-lined", "cotton blend"]
+        },
+        "blouses": {
+          "style": ["ruffled", "button-up"],
+          "features": ["short sleeve", "long sleeve"]
+        }
+      },
+      "bottoms": {
+        "pants": {
+          "fit": ["slim", "relaxed"],
+          "material": ["denim", "cotton"]
+        },
+        "shorts": {
+          "length": ["knee-length", "above knee"],
+          "features": ["elastic waist", "drawstring"]
+        },
+        "skirts": {
+          "style": ["a-line", "pleated"],
+          "length": ["mini", "midi"]
+        },
+        "leggings": {
+          "material": ["cotton", "spandex"],
+          "features": ["elastic waist", "stretch"]
+        }
+      },
+      "outerwear": {
+        "jackets": {
+          "style": ["puffer", "raincoat"],
+          "features": ["hooded", "fleece-lined"]
+        },
+        "coats": {
+          "material": ["wool", "fleece"],
+          "style": ["peacoat", "parka"]
+        },
+        "vests": {
+          "material": ["down", "fleece"],
+          "style": ["puffer", "quilted"]
+        }
+      },
+      "sleepwear": {
+        "pajama_sets": {
+          "material": ["cotton", "flannel"],
+          "style": ["two-piece", "onesie"]
+        },
+        "robes": {
+          "material": ["cotton", "plush"],
+          "features": ["hooded", "belted"]
+        },
+        "slippers": {
+          "type": ["fleece-lined", "memory foam"],
+          "features": ["indoor", "outdoor"]
+        }
+      }
+    },
+    "accessories": {
+      "bags": {
+        "handbags": {
+          "type": ["tote", "crossbody"],
+          "material": ["leather", "fabric"]
+        },
+        "backpacks": {
+          "style": ["daypack", "hiking"],
+          "features": ["water-resistant", "laptop sleeve"]
+        },
+        "wallets": {
+          "material": ["leather", "nylon"],
+          "features": ["RFID-blocking", "zip-around"]
+        },
+        "duffel_bags": {
+          "material": ["canvas", "nylon"],
+          "size": ["small", "large"]
+        }
+      },
+      "hats": {
+        "baseball_caps": {
+          "material": ["cotton", "polyester"],
+          "features": ["adjustable", "snapback"]
+        },
+        "beanies": {
+          "material": ["wool", "knit"],
+          "style": ["slouchy", "cuffed"]
+        },
+        "fedoras": {
+          "material": ["wool", "straw"],
+          "style": ["classic", "wide-brim"]
+        },
+        "sun_hats": {
+          "material": ["straw", "cotton"],
+          "features": ["wide brim", "packable"]
+        }
+      },
+      "scarves_and_gloves": {
+        "scarves": {
+          "material": ["cashmere", "wool"],
+          "style": ["infinity", "oblong"]
+        },
+        "gloves": {
+          "material": ["leather", "knit"],
+          "style": ["fingerless", "full-finger"]
+        },
+        "mittens": {
+          "material": ["wool", "fleece"],
+          "features": ["lined", "insulated"]
+        },
+        "shawls": {
+          "material": ["silk", "cashmere"],
+          "style": ["open-front", "wraparound"]
+        }
+      }
+    },
+    "shoes": {
+      "casual_shoes": {
+        "sneakers": {
+          "style": ["low-top", "high-top"],
+          "material": ["canvas", "leather"]
+        },
+        "loafers": {
+          "material": ["leather", "suede"],
+          "style": ["slip-on", "tassel"]
+        },
+        "flats": {
+          "material": ["ballet", "pointed"],
+          "features": ["bow detail", "slip-on"]
+        },
+        "sandals": {
+          "style": ["flip-flop", "slide"],
+          "material": ["leather", "rubber"]
+        }
+      },
+      "boots": {
+        "ankle_boots": {
+          "material": ["leather", "suede"],
+          "style": ["chelsea", "chukka"]
+        },
+        "knee_high_boots": {
+          "material": ["leather", "faux leather"],
+          "features": ["zip-up", "buckle detail"]
+        },
+        "rain_boots": {
+          "material": ["rubber", "neoprene"],
+          "features": ["waterproof", "slip-resistant"]
+        }
+      }
+    }
+  },
+  "accessories": {
+    "jewelry": {
+      "necklaces": {
+        "pendant": {
+          "length": ["16\"", "18\"", "20\"", "22\"", "24\""],
+          "material": ["gold", "silver", "platinum", "beaded"]
+        },
+        "choker": {
+          "length": ["12\"", "14\"", "16\""],
+          "material": ["leather", "fabric", "metal"]
+        },
+        "statement": {
+          "length": ["adjustable"],
+          "material": ["mixed metal", "stone"]
+        },
+        "layered": {
+          "length": ["multiple"],
+          "material": ["gold", "silver", "beaded"]
+        }
+      },
+      "bracelets": {
+        "cuff": {
+          "size": ["S", "M", "L"],
+          "material": ["metal", "leather", "wood"]
+        },
+        "bangles": {
+          "size": ["adjustable"],
+          "material": ["gold", "silver", "plastic"]
+        },
+        "charm": {
+          "size": ["adjustable"],
+          "material": ["metal", "enamel", "mixed"]
+        },
+        "leather": {
+          "size": ["S", "M", "L"],
+          "color": ["brown", "black", "tan"]
+        }
+      }
+    },
+    "bags": {
+      "handbags": {
+        "tote": {
+          "size": ["small", "medium", "large"],
+          "material": ["canvas", "leather"]
+        },
+        "crossbody": {
+          "size": ["small", "medium"],
+          "material": ["synthetic", "leather"]
+        },
+        "satchel": {
+          "size": ["small", "medium"],
+          "material": ["leather", "fabric"]
+        },
+        "hobo": {
+          "size": ["medium", "large"],
+          "material": ["leather", "fabric"]
+        }
+      },
+      "backpacks": {
+        "casual": {
+          "size": ["small", "medium", "large"],
+          "material": ["canvas", "nylon"]
+        },
+        "travel": {
+          "size": ["medium", "large"],
+          "material": ["waterproof", "synthetic"]
+        },
+        "leather": {
+          "size": ["medium"],
+          "material": ["genuine leather"]
+        },
+        "mini": {
+          "size": ["small"],
+          "material": ["fabric", "leather"]
+        }
+      }
+    },
+    "belts": {
+      "casual_belts": {
+        "fabric": {
+          "size": ["S", "M", "L", "XL"],
+          "color": ["navy", "black", "brown"]
+        },
+        "canvas": {
+          "size": ["S", "M", "L", "XL"],
+          "color": ["khaki", "green", "red"]
+        },
+        "woven": {
+          "size": ["S", "M", "L", "XL"],
+          "color": ["beige", "black", "white"]
+        },
+        "braided": {
+          "size": ["S", "M", "L", "XL"],
+          "color": ["brown", "black"]
+        }
+      },
+      "dress_belts": {
+        "leather": {
+          "size": ["S", "M", "L", "XL"],
+          "color": ["black", "brown"]
+        },
+        "suede": {
+          "size": ["S", "M", "L", "XL"],
+          "color": ["gray", "tan"]
+        },
+        "dressy_fabric": {
+          "size": ["S", "M", "L", "XL"],
+          "color": ["navy", "burgundy"]
+        },
+        "reversible": {
+          "size": ["S", "M", "L", "XL"],
+          "color": ["black/brown", "blue/tan"]
+        }
+      }
+    },
+    "hats_and_headwear": {
+      "caps": {
+        "baseball_cap": {
+          "size": ["one size", "adjustable"],
+          "color": ["black", "white", "red"]
+        },
+        "dad_hat": {
+          "size": ["one size", "adjustable"],
+          "color": ["denim", "olive", "black"]
+        },
+        "snapback": {
+          "size": ["one size", "adjustable"],
+          "color": ["black", "gray", "camo"]
+        },
+        "bucket_hat": {
+          "size": ["S", "M", "L"],
+          "color": ["patterned", "solid"]
+        }
+      },
+      "beanies": {
+        "knit": {
+          "size": ["one size"],
+          "color": ["gray", "black", "blue"]
+        },
+        "cuffed": {
+          "size": ["one size"],
+          "color": ["red", "green", "yellow"]
+        },
+        "slouchy": {
+          "size": ["one size"],
+          "color": ["maroon", "navy"]
+        },
+        "pom-pom": {
+          "size": ["one size"],
+          "color": ["multi-colored", "solid"]
+        }
+      }
+    },
+    "sunglasses": {
+      "fashion_sunglasses": {
+        "cat-eye": {
+          "size": ["small", "medium", "large"],
+          "lens_color": ["black", "brown", "mirror"]
+        },
+        "round": {
+          "size": ["small", "medium"],
+          "lens_color": ["clear", "tinted"]
+        },
+        "aviator": {
+          "size": ["medium", "large"],
+          "lens_color": ["green", "blue"]
+        },
+        "oversized": {
+          "size": ["one size"],
+          "lens_color": ["gradient", "solid"]
+        }
+      },
+      "sports_sunglasses": {
+        "polarized": {
+          "size": ["small", "medium", "large"],
+          "lens_color": ["dark gray", "blue"]
+        },
+        "wraparound": {
+          "size": ["one size"],
+          "lens_color": ["amber", "smoke"]
+        },
+        "mirrored": {
+          "size": ["small", "medium"],
+          "lens_color": ["silver", "gold"]
+        },
+        "clip-on": {
+          "size": ["fits most"],
+          "lens_color": ["various"]
+        }
+      }
+    },
+    "watches": {
+      "analog_watches": {
+        "dress": {
+          "size": ["small", "medium", "large"],
+          "material": ["leather", "metal"]
+        },
+        "chronograph": {
+          "size": ["medium", "large"],
+          "material": ["stainless steel"]
+        },
+        "dive": {
+          "size": ["medium", "large"],
+          "material": ["plastic", "metal"]
+        },
+        "classic": {
+          "size": ["small", "medium"],
+          "material": ["leather", "fabric"]
+        }
+      },
+      "smartwatches": {
+        "fitness": {
+          "size": ["small", "medium", "large"],
+          "material": ["silicone", "metal"]
+        },
+        "hybrid": {
+          "size": ["small", "medium", "large"],
+          "material": ["leather", "nylon"]
+        },
+        "luxury": {
+          "size": ["small", "medium"],
+          "material": ["gold", "silver"]
+        },
+        "sports": {
+          "size": ["small", "medium", "large"],
+          "material": ["plastic", "rubber"]
+        }
+      }
+    },
+    "footwear_accessories": {
+      "shoe_laces": {
+        "flat": {
+          "length": ["27\"", "36\"", "45\""],
+          "color": ["black", "white", "colorful"]
+        },
+        "round": {
+          "length": ["27\"", "36\""],
+          "color": ["brown", "gray"]
+        },
+        "colored": {
+          "length": ["36\"", "45\""],
+          "color": ["neon", "pastel"]
+        },
+        "reflective": {
+          "length": ["36\"", "45\""],
+          "color": ["black", "silver"]
+        }
+      },
+      "insoles": {
+        "comfort": {
+          "size": ["S", "M", "L", "XL"],
+          "type": ["gel", "foam"]
+        },
+        "orthotic": {
+          "size": ["S", "M", "L", "XL"],
+          "type": ["custom", "arch support"]
+        },
+        "gel": {
+          "size": ["S", "M", "L", "XL"],
+          "type": ["full-length", "3/4-length"]
+        },
+        "sport": {
+          "size": ["S", "M", "L", "XL"],
+          "type": ["running", "hiking"]
+        }
+      }
+    },
+    "tech_accessories": {
+      "phone_cases": {
+        "slim": {
+          "size": ["iPhone", "Samsung", "Universal"],
+          "material": ["plastic", "silicone"]
+        },
+        "wallet": {
+          "size": ["iPhone", "Samsung"],
+          "material": ["leather", "fabric"]
+        },
+        "rugged": {
+          "size": ["iPhone", "Samsung"],
+          "material": ["polycarbonate", "TPU"]
+        },
+        "clear": {
+          "size": ["iPhone", "Samsung"],
+          "material": ["acrylic", "TPU"]
+        }
+      },
+      "laptop_bags": {
+        "sleeve": {
+          "size": ["13\"", "15\"", "17\""],
+          "material": ["neoprene", "fabric"]
+        },
+        "backpack": {
+          "size": ["small", "medium", "large"],
+          "material": ["canvas", "nylon"]
+        },
+        "messenger": {
+          "size": ["small", "medium"],
+          "material": ["leather", "synthetic"]
+        },
+        "briefcase": {
+          "size": ["small", "medium"],
+          "material": ["leather", "fabric"]
+        }
+      }
+    },
+    "hair_accessories": {
+      "clips": {
+        "alligator": {
+          "size": ["small", "medium", "large"],
+          "color": ["black", "tortoiseshell"]
+        },
+        "barrettes": {
+          "size": ["small", "medium"],
+          "color": ["gold", "silver"]
+        },
+        "snap": {
+          "size": ["small", "medium"],
+          "color": ["colorful", "pastel"]
+        },
+        "claw": {
+          "size": ["small", "medium"],
+          "color": ["black", "brown"]
+        }
+      },
+      "ties": {
+        "elastic": {
+          "size": ["small", "medium", "large"],
+          "color": ["solid", "patterned"]
+        },
+        "scrunchies": {
+          "size": ["one size"],
+          "color": ["various patterns"]
+        },
+        "spiral": {
+          "size": ["one size"],
+          "color": ["clear", "black"]
+        },
+        "ribbon": {
+          "size": ["one size"],
+          "color": ["solid", "floral"]
+        }
+      }
+    },
+    "seasonal_accessories": {
+      "gloves": {
+        "leather": {
+          "size": ["S", "M", "L"],
+          "color": ["black", "brown"]
+        },
+        "knit": {
+          "size": ["S", "M", "L"],
+          "color": ["gray", "blue"]
+        },
+        "touchscreen": {
+          "size": ["S", "M", "L"],
+          "color": ["black", "red"]
+        },
+        "fleece": {
+          "size": ["S", "M", "L"],
+          "color": ["black", "pink"]
+        }
+      },
+      "umbrellas": {
+        "compact": {
+          "size": ["one size"],
+          "color": ["black", "patterned"]
+        },
+        "golf": {
+          "size": ["one size"],
+          "color": ["solid", "striped"]
+        },
+        "clear": {
+          "size": ["one size"],
+          "color": ["transparent"]
+        },
+        "windproof": {
+          "size": ["one size"],
+          "color": ["black", "navy"]
+        }
+      },
+      "beach_towels": {
+        "quick-dry": {
+          "size": ["standard", "oversized"],
+          "pattern": ["solid", "printed"]
+        },
+        "oversized": {
+          "size": ["large"],
+          "pattern": ["floral", "geometric"]
+        },
+        "printed": {
+          "size": ["standard"],
+          "pattern": ["cartoon", "nature"]
+        },
+        "microfiber": {
+          "size": ["standard", "large"],
+          "pattern": ["solid", "patterned"]
+        }
+      }
+    }
+  },
+  "health_and_beauty": {
+    "skincare": {
+      "cleansers": {
+        "foaming": {
+          "size": ["4 oz", "6 oz", "8 oz"],
+          "skin_type": ["oily", "combination", "sensitive"]
+        },
+        "gel": {
+          "size": ["4 oz", "6 oz", "8 oz"],
+          "skin_type": ["dry", "oily", "combination"]
+        },
+        "cream": {
+          "size": ["4 oz", "6 oz"],
+          "skin_type": ["dry", "sensitive"]
+        },
+        "micellar_water": {
+          "size": ["4 oz", "8 oz", "16 oz"],
+          "skin_type": ["all skin types"]
+        }
+      },
+      "moisturizers": {
+        "gel": {
+          "size": ["1.7 oz", "3.4 oz"],
+          "skin_type": ["oily", "combination"]
+        },
+        "cream": {
+          "size": ["1.7 oz", "3.4 oz"],
+          "skin_type": ["dry", "normal"]
+        },
+        "lotion": {
+          "size": ["8 oz", "16 oz"],
+          "skin_type": ["all skin types"]
+        },
+        "night_cream": {
+          "size": ["1.7 oz", "3.4 oz"],
+          "skin_type": ["all skin types"]
+        }
+      },
+      "serums": {
+        "vitamin_c": {
+          "size": ["1 oz", "1.7 oz"],
+          "skin_type": ["all skin types"]
+        },
+        "hyaluronic_acid": {
+          "size": ["1 oz", "1.7 oz"],
+          "skin_type": ["all skin types"]
+        },
+        "retinol": {
+          "size": ["1 oz", "1.7 oz"],
+          "skin_type": ["normal", "oily"]
+        },
+        "anti_aging": {
+          "size": ["1 oz", "1.7 oz"],
+          "skin_type": ["all skin types"]
+        }
+      }
+    },
+    "makeup": {
+      "face": {
+        "foundation": {
+          "size": ["1 oz", "1.5 oz"],
+          "finish": ["matte", "dewy"],
+          "shade": ["light", "medium", "dark"]
+        },
+        "concealer": {
+          "size": ["0.3 oz", "0.4 oz"],
+          "coverage": ["full", "light"],
+          "shade": ["light", "medium", "dark"]
+        },
+        "blush": {
+          "size": ["0.2 oz", "0.3 oz"],
+          "type": ["cream", "powder"],
+          "shade": ["pink", "peach", "plum"]
+        },
+        "highlighter": {
+          "size": ["0.2 oz", "0.3 oz"],
+          "type": ["liquid", "powder"],
+          "shade": ["gold", "silver", "rose"]
+        }
+      },
+      "eyes": {
+        "eyeshadow": {
+          "size": ["0.5 oz", "1 oz"],
+          "type": ["palette", "single"],
+          "shade": ["neutral", "bold"]
+        },
+        "eyeliner": {
+          "size": ["0.01 oz", "0.02 oz"],
+          "type": ["liquid", "pencil"],
+          "shade": ["black", "brown", "colorful"]
+        },
+        "mascara": {
+          "size": ["0.3 oz", "0.4 oz"],
+          "type": ["lengthening", "volumizing"],
+          "shade": ["black", "brown"]
+        },
+        "brow_products": {
+          "size": ["0.01 oz", "0.02 oz"],
+          "type": ["pencil", "gel", "powder"],
+          "shade": ["brown", "blonde", "black"]
+        }
+      }
+    },
+    "hair_care": {
+      "shampoos": {
+        "moisturizing": {
+          "size": ["8 oz", "16 oz"],
+          "hair_type": ["dry", "curly"]
+        },
+        "clarifying": {
+          "size": ["8 oz", "16 oz"],
+          "hair_type": ["oily", "product build-up"]
+        },
+        "volumizing": {
+          "size": ["8 oz", "16 oz"],
+          "hair_type": ["fine", "flat"]
+        },
+        "color_safe": {
+          "size": ["8 oz", "16 oz"],
+          "hair_type": ["color-treated"]
+        }
+      },
+      "conditioners": {
+        "hydrating": {
+          "size": ["8 oz", "16 oz"],
+          "hair_type": ["dry", "damaged"]
+        },
+        "lightweight": {
+          "size": ["8 oz", "16 oz"],
+          "hair_type": ["fine", "oily"]
+        },
+        "deep_conditioner": {
+          "size": ["8 oz", "16 oz"],
+          "hair_type": ["all hair types"]
+        },
+        "leave_in": {
+          "size": ["8 oz", "16 oz"],
+          "hair_type": ["curly", "straight"]
+        }
+      },
+      "styling_products": {
+        "hair_spray": {
+          "size": ["8 oz", "10 oz"],
+          "hold": ["light", "strong"]
+        },
+        "mousse": {
+          "size": ["8 oz", "10 oz"],
+          "hold": ["flexible", "strong"]
+        },
+        "gel": {
+          "size": ["8 oz", "10 oz"],
+          "hold": ["flexible", "strong"]
+        },
+        "cream": {
+          "size": ["8 oz", "10 oz"],
+          "type": ["defining", "moisturizing"]
+        }
+      }
+    },
+    "body_care": {
+      "body_wash": {
+        "gel": {
+          "size": ["8 oz", "16 oz"],
+          "scent": ["floral", "fresh", "citrus"]
+        },
+        "cream": {
+          "size": ["8 oz", "16 oz"],
+          "scent": ["coconut", "vanilla", "unscented"]
+        },
+        "exfoliating": {
+          "size": ["8 oz", "16 oz"],
+          "scent": ["berry", "coffee", "citrus"]
+        }
+      },
+      "body_lotion": {
+        "lightweight": {
+          "size": ["8 oz", "16 oz"],
+          "scent": ["fresh", "floral"]
+        },
+        "thick_cream": {
+          "size": ["8 oz", "16 oz"],
+          "scent": ["vanilla", "unscented"]
+        },
+        "firming": {
+          "size": ["8 oz", "16 oz"],
+          "scent": ["citrus", "lavender"]
+        }
+      },
+      "sunscreen": {
+        "lotion": {
+          "size": ["3 oz", "6 oz"],
+          "spf": [30, 50, 70]
+        },
+        "spray": {
+          "size": ["3 oz", "6 oz"],
+          "spf": [30, 50]
+        },
+        "stick": {
+          "size": ["0.5 oz", "1 oz"],
+          "spf": [30, 50]
+        }
+      }
+    },
+    "oral_care": {
+      "toothpaste": {
+        "whitening": {
+          "size": ["4 oz", "6 oz"],
+          "type": ["gel", "paste"]
+        },
+        "sensitivity": {
+          "size": ["4 oz", "6 oz"],
+          "type": ["fluoride", "non-fluoride"]
+        },
+        "natural": {
+          "size": ["4 oz", "6 oz"],
+          "type": ["fluoride-free", "herbal"]
+        }
+      },
+      "mouthwash": {
+        "alcohol_free": {
+          "size": ["8 oz", "16 oz"],
+          "type": ["fluoride", "whitening"]
+        },
+        "antiseptic": {
+          "size": ["8 oz", "16 oz"],
+          "type": ["regular", "herbal"]
+        },
+        "breath_freshener": {
+          "size": ["8 oz", "16 oz"],
+          "flavor": ["mint", "cinnamon"]
+        }
+      }
+    },
+    "fragrances": {
+      "perfumes": {
+        "eau_de_parfum": {
+          "size": ["1 oz", "1.7 oz"],
+          "notes": ["floral", "woody", "fruity"]
+        },
+        "eau_de_toilette": {
+          "size": ["1 oz", "1.7 oz"],
+          "notes": ["citrus", "spicy", "fresh"]
+        }
+      },
+      "colognes": {
+        "eau_de_cologne": {
+          "size": ["1 oz", "1.7 oz"],
+          "notes": ["woody", "fresh", "aromatic"]
+        },
+        "aftershave": {
+          "size": ["3 oz", "6 oz"],
+          "notes": ["citrus", "spicy"]
+        }
+      }
+    },
+    "tools_and_accessories": {
+      "makeup_brushes": {
+        "face_brushes": {
+          "type": ["foundation", "blush", "powder"],
+          "material": ["synthetic", "natural"]
+        },
+        "eye_brushes": {
+          "type": ["blending", "detail", "liner"],
+          "material": ["synthetic", "natural"]
+        },
+        "lip_brushes": {
+          "type": ["flat", "retractable"],
+          "material": ["synthetic", "natural"]
+        }
+      },
+      "skincare_tools": {
+        "facial_rollers": {
+          "material": ["rose quartz", "jade"]
+        },
+        "cleansing_brushes": {
+          "type": ["manual", "electric"]
+        },
+        "microneedling_tools": {
+          "type": ["derma roller", "pen"]
+        }
+      }
+    }
+  },
+  "sports_and_outdoors": {
+    "sports_equipment": {
+      "fitness_equipment": {
+        "dumbbells": {
+          "weight": ["5 lb", "10 lb", "15 lb", "20 lb"],
+          "material": ["vinyl", "rubber"]
+        },
+        "resistance_bands": {
+          "level": ["light", "medium", "heavy"],
+          "length": ["10\"", "12\"", "14\""]
+        },
+        "yoga_mats": {
+          "thickness": ["1/4\"", "1/2\""],
+          "material": ["PVC", "TPE"]
+        },
+        "stability_balls": {
+          "size": ["45 cm", "55 cm", "65 cm", "75 cm"],
+          "material": ["PVC", "anti-burst"]
+        }
+      },
+      "team_sports": {
+        "basketballs": {
+          "size": ["official", "intermediate", "youth"],
+          "material": ["rubber", "composite"]
+        },
+        "soccer_balls": {
+          "size": [5, 4, 3],
+          "material": ["synthetic", "leather"]
+        },
+        "volleyballs": {
+          "size": ["official", "beach", "indoor"],
+          "material": ["synthetic", "rubber"]
+        },
+        "baseballs": {
+          "size": ["official", "practice"],
+          "material": ["leather", "synthetic"]
+        }
+      }
+    },
+    "outdoor_gear": {
+      "camping_equipment": {
+        "tents": {
+          "size": ["2-person", "4-person", "6-person"],
+          "type": ["backpacking", "family"]
+        },
+        "sleeping_bags": {
+          "temperature_rating": ["0°F", "20°F", "40°F"],
+          "size": ["regular", "long"]
+        },
+        "camping_stoves": {
+          "type": ["portable", "tabletop"],
+          "fuel_type": ["propane", "butane"]
+        },
+        "lanterns": {
+          "type": ["LED", "gas"],
+          "brightness": ["100 lumens", "200 lumens"]
+        }
+      },
+      "hiking_gear": {
+        "backpacks": {
+          "size": ["daypack", "50L", "70L"],
+          "type": ["hydration", "multi-day"]
+        },
+        "hiking_boots": {
+          "size": ["US 6-15"],
+          "type": ["waterproof", "lightweight"]
+        },
+        "trekking_poles": {
+          "material": ["aluminum", "carbon fiber"],
+          "length": ["adjustable"]
+        },
+        "gps_devices": {
+          "type": ["handheld", "watch"],
+          "features": ["topographic", "navigation"]
+        }
+      }
+    },
+    "water_sports": {
+      "kayaking_and_canoeing": {
+        "kayaks": {
+          "type": ["recreational", "touring", "inflatable"],
+          "size": ["1-person", "2-person"]
+        },
+        "life_jackets": {
+          "size": ["adult", "youth", "child"],
+          "type": ["coast guard approved"]
+        },
+        "paddles": {
+          "length": ["220 cm", "230 cm"],
+          "material": ["aluminum", "carbon fiber"]
+        },
+        "dry_bags": {
+          "size": ["5L", "10L", "20L"],
+          "material": ["waterproof", "durable"]
+        }
+      },
+      "swimming": {
+        "swim_goggles": {
+          "type": ["racing", "recreational"],
+          "lens_type": ["clear", "tinted"]
+        },
+        "swim_fins": {
+          "size": ["S", "M", "L"],
+          "type": ["short", "long"]
+        },
+        "swim_caps": {
+          "size": ["adult", "child"],
+          "material": ["silicone", "latex"]
+        },
+        "kickboards": {
+          "size": ["standard", "mini"],
+          "type": ["foam", "inflatable"]
+        }
+      }
+    },
+    "cycling": {
+      "bicycles": {
+        "road_bikes": {
+          "size": ["small", "medium", "large"],
+          "frame_material": ["aluminum", "carbon"]
+        },
+        "mountain_bikes": {
+          "size": ["small", "medium", "large"],
+          "suspension_type": ["hardtail", "full-suspension"]
+        },
+        "hybrid_bikes": {
+          "size": ["small", "medium", "large"],
+          "frame_material": ["steel", "aluminum"]
+        },
+        "folding_bikes": {
+          "size": ["one size"],
+          "weight_limit": ["250 lb", "300 lb"]
+        }
+      },
+      "cycling_accessories": {
+        "helmets": {
+          "size": ["S", "M", "L"],
+          "type": ["road", "mountain", "commuter"]
+        },
+        "bike_locks": {
+          "type": ["cable", "u-lock", "chain"],
+          "size": ["standard", "long"]
+        },
+        "cycling_gloves": {
+          "size": ["S", "M", "L"],
+          "type": ["full-finger", "half-finger"]
+        },
+        "water_bottles": {
+          "size": ["20 oz", "24 oz", "32 oz"],
+          "material": ["plastic", "stainless steel"]
+        }
+      }
+    },
+    "fitness_apparel": {
+      "activewear": {
+        "tops": {
+          "type": ["tank", "t-shirt", "long sleeve"],
+          "size": ["XS", "S", "M", "L", "XL"]
+        },
+        "bottoms": {
+          "type": ["leggings", "shorts", "joggers"],
+          "size": ["XS", "S", "M", "L", "XL"]
+        },
+        "sports_bras": {
+          "size": ["32A-38D"],
+          "support_level": ["light", "medium", "high"]
+        },
+        "jackets": {
+          "type": ["windbreaker", "hoodie"],
+          "size": ["XS", "S", "M", "L", "XL"]
+        }
+      },
+      "footwear": {
+        "running_shoes": {
+          "size": ["men: 7-14", "women: 5-12"],
+          "type": ["cushioned", "stability"]
+        },
+        "cross_training_shoes": {
+          "size": ["men: 7-14", "women: 5-12"],
+          "type": ["versatile", "lightweight"]
+        },
+        "hiking_boots": {
+          "size": ["men: 7-14", "women: 5-12"],
+          "type": ["waterproof", "breathable"]
+        },
+        "cleats": {
+          "size": ["men: 7-14", "women: 5-12"],
+          "type": ["soccer", "baseball", "football"]
+        }
+      }
+    },
+    "outdoor_clothing": {
+      "layering": {
+        "base_layers": {
+          "type": ["top", "bottom"],
+          "size": ["XS", "S", "M", "L", "XL"],
+          "material": ["merino wool", "synthetic"]
+        },
+        "mid_layers": {
+          "type": ["fleece", "insulated jacket"],
+          "size": ["XS", "S", "M", "L", "XL"]
+        },
+        "outer_layers": {
+          "type": ["rain jacket", "shell"],
+          "size": ["XS", "S", "M", "L", "XL"]
+        }
+      },
+      "accessories": {
+        "hats": {
+          "type": ["sun hat", "beanie"],
+          "size": ["one size"],
+          "material": ["cotton", "wool"]
+        },
+        "gloves": {
+          "type": ["insulated", "lightweight"],
+          "size": ["S", "M", "L"]
+        },
+        "socks": {
+          "type": ["hiking", "running"],
+          "size": ["S", "M", "L", "XL"],
+          "material": ["wool", "synthetic"]
+        },
+        "scarves": {
+          "type": ["lightweight", "thick"],
+          "size": ["one size"],
+          "material": ["wool", "synthetic"]
+        }
+      }
+    }
+  },
+  "toys_and_games": {
+    "action_figures": {
+      "superheroes": {
+        "marvel": {
+          "size": ["6\"", "12\""],
+          "material": ["plastic", "vinyl"]
+        },
+        "dc": {
+          "size": ["6\"", "12\""],
+          "material": ["plastic", "vinyl"]
+        },
+        "customizable": {
+          "size": ["6\""],
+          "features": ["interchangeable parts", "accessories"]
+        }
+      },
+      "cartoon_characters": {
+        "animated_series": {
+          "size": ["5\"", "7\""],
+          "material": ["plastic", "vinyl"]
+        },
+        "classic_cartoons": {
+          "size": ["5\"", "7\""],
+          "material": ["plastic", "vinyl"]
+        },
+        "movie_tie_ins": {
+          "size": ["6\"", "12\""],
+          "material": ["plastic", "vinyl"]
+        }
+      }
+    },
+    "building_sets": {
+      "lego": {
+        "classic": {
+          "piece_count": [100, 300, 1000],
+          "theme": ["city", "technic", "creator"]
+        },
+        "themed_sets": {
+          "piece_count": [200, 500],
+          "theme": ["star wars", "harry potter", "friends"]
+        },
+        "duplo": {
+          "piece_count": [20, 40],
+          "theme": ["animals", "vehicles"]
+        }
+      },
+      "other_building_brands": {
+        "magnetic_tiles": {
+          "set_size": [30, 60, 100],
+          "material": ["plastic"]
+        },
+        "wooden_blocks": {
+          "set_size": [50, 100],
+          "material": ["wood"]
+        }
+      }
+    },
+    "board_games": {
+      "family_games": {
+        "classic": {
+          "players": ["2-4"],
+          "ages": ["8+"],
+          "game_type": ["strategy", "trivia"]
+        },
+        "modern": {
+          "players": ["2-6"],
+          "ages": ["10+"],
+          "game_type": ["cooperative", "party"]
+        },
+        "educational": {
+          "players": ["2-4"],
+          "ages": ["6+"],
+          "game_type": ["math", "science"]
+        }
+      },
+      "strategy_games": {
+        "resource_management": {
+          "players": ["2-5"],
+          "ages": ["12+"],
+          "game_type": ["building", "economy"]
+        },
+        "territory_control": {
+          "players": ["2-6"],
+          "ages": ["14+"],
+          "game_type": ["combat", "strategy"]
+        }
+      }
+    },
+    "puzzles": {
+      "jigsaw_puzzles": {
+        "traditional": {
+          "piece_count": [100, 500, 1000],
+          "image": ["landscape", "animals", "art"]
+        },
+        "3d_puzzles": {
+          "piece_count": [50, 100],
+          "theme": ["landmarks", "buildings"]
+        },
+        "floor_puzzles": {
+          "piece_count": [24, 48],
+          "age": ["3-5 years"],
+          "image": ["cartoon characters"]
+        }
+      },
+      "brain_teasers": {
+        "mechanical": {
+          "type": ["cube", "lock"],
+          "difficulty": ["easy", "medium", "hard"]
+        },
+        "logic_puzzles": {
+          "type": ["board", "card"],
+          "age": ["8+"]
+        }
+      }
+    },
+    "outdoor_toys": {
+      "active_play": {
+        "sports_equipment": {
+          "type": ["soccer ball", "basketball", "frisbee"],
+          "size": ["official", "youth"]
+        },
+        "playground_equipment": {
+          "type": ["swing set", "slide"],
+          "size": ["standard", "mini"]
+        },
+        "water_toys": {
+          "type": ["water guns", "splash mats"],
+          "age": ["3+"]
+        }
+      },
+      "ride_on_toys": {
+        "tricycles": {
+          "size": ["toddler", "kids"],
+          "age": ["2-5 years"]
+        },
+        "scooters": {
+          "size": ["mini", "standard"],
+          "age": ["3-12 years"]
+        },
+        "balance_bikes": {
+          "size": ["12\"", "14\""],
+          "age": ["2-5 years"]
+        }
+      }
+    },
+    "educational_toys": {
+      "stem_toys": {
+        "science_kits": {
+          "type": ["chemistry", "robotics"],
+          "age": ["8+"]
+        },
+        "building_kits": {
+          "type": ["engineering", "coding"],
+          "age": ["5+"]
+        },
+        "math_games": {
+          "type": ["board", "card"],
+          "age": ["6+"]
+        }
+      },
+      "arts_and_crafts": {
+        "craft_kits": {
+          "type": ["painting", "sewing"],
+          "age": ["5+"]
+        },
+        "coloring_supplies": {
+          "type": ["markers", "crayons"],
+          "age": ["3+"]
+        },
+        "diy_projects": {
+          "type": ["modeling clay", "beading"],
+          "age": ["5+"]
+        }
+      }
+    },
+    "dolls_and_plush_toys": {
+      "dolls": {
+        "fashion_dolls": {
+          "size": ["11.5\""],
+          "type": ["traditional", "modern"],
+          "age": ["5+"]
+        },
+        "baby_dolls": {
+          "size": ["12\"", "18\""],
+          "features": ["interactive", "soft-bodied"]
+        },
+        "collectible_dolls": {
+          "size": ["12\""],
+          "type": ["porcelain", "vinyl"]
+        }
+      },
+      "plush_toys": {
+        "stuffed_animals": {
+          "size": ["small", "medium", "large"],
+          "type": ["bears", "cats", "dogs"]
+        },
+        "character_plush": {
+          "size": ["small", "medium"],
+          "theme": ["movies", "tv shows"]
+        },
+        "pillows": {
+          "size": ["standard", "travel"],
+          "type": ["animal", "emoji"]
+        }
+      }
+    },
+    "card_games": {
+      "classic_games": {
+        "playing_cards": {
+          "type": ["standard", "specialty"],
+          "size": ["poker", "bridge"]
+        },
+        "uno": {
+          "size": ["standard", "travel"],
+          "theme": ["classic", "themed"]
+        }
+      },
+      "strategy_card_games": {
+        "collectible_card_games": {
+          "type": ["trading", "deck-building"],
+          "age": ["10+"]
+        },
+        "party_games": {
+          "type": ["social deduction", "bluffing"],
+          "age": ["14+"]
+        }
+      }
+    },
+    "electronic_toys": {
+      "interactive_toys": {
+        "robots": {
+          "size": ["mini", "standard"],
+          "features": ["programmable", "remote-controlled"]
+        },
+        "learning_tablets": {
+          "age": ["3-8 years"],
+          "features": ["educational apps", "touchscreen"]
+        },
+        "drones": {
+          "size": ["mini", "standard"],
+          "features": ["camera", "remote-controlled"]
+        }
+      },
+      "video_games": {
+        "consoles": {
+          "type": ["playstation", "xbox", "nintendo"],
+          "generation": ["current", "previous"]
+        },
+        "handhelds": {
+          "type": ["nintendo switch", "psp"],
+          "age": ["7+"]
+        },
+        "accessories": {
+          "type": ["controllers", "headsets"],
+          "compatibility": ["ps", "xbox", "pc"]
+        }
+      }
+    }
+  },
+  "automotive": {
+    "car_accessories": {
+      "interior_accessories": {
+        "floor_mats": {
+          "type": ["all-weather", "carpet"],
+          "fit": ["universal", "custom"]
+        },
+        "seat_covers": {
+          "type": ["leather", "fabric"],
+          "fit": ["bucket", "bench"]
+        },
+        "steering_wheel_covers": {
+          "material": ["leather", "rubber"],
+          "size": ["standard", "oversized"]
+        },
+        "sun_shades": {
+          "type": ["accordion", "roll-up"],
+          "fit": ["windshield", "side windows"]
+        }
+      },
+      "exterior_accessories": {
+        "car_covers": {
+          "type": ["indoor", "outdoor"],
+          "size": ["compact", "SUV", "truck"]
+        },
+        "wind_deflectors": {
+          "type": ["vent visors", "sunroof"],
+          "fit": ["specific models"]
+        },
+        "spoilers": {
+          "type": ["universal", "custom"],
+          "material": ["plastic", "fiberglass"]
+        },
+        "roof_racks": {
+          "type": ["cargo", "bike", "ski"],
+          "fit": ["universal", "vehicle-specific"]
+        }
+      }
+    },
+    "maintenance_products": {
+      "fluids": {
+        "engine_oil": {
+          "type": ["synthetic", "conventional"],
+          "viscosity": ["5W-30", "10W-40"]
+        },
+        "transmission_fluid": {
+          "type": ["ATF", "CVT"],
+          "volume": ["1 qt", "5 qt"]
+        },
+        "coolant": {
+          "type": ["antifreeze", "pre-mixed"],
+          "volume": ["1 gal", "50/50"]
+        },
+        "brake_fluid": {
+          "type": ["DOT 3", "DOT 4"],
+          "volume": ["12 oz", "1 qt"]
+        }
+      },
+      "cleaning_products": {
+        "car_wash_soap": {
+          "type": ["concentrated", "no-rinse"],
+          "size": ["16 oz", "1 gal"]
+        },
+        "wax": {
+          "type": ["liquid", "paste"],
+          "size": ["16 oz", "32 oz"]
+        },
+        "interior_cleaner": {
+          "type": ["multi-surface", "leather"],
+          "size": ["16 oz", "1 qt"]
+        },
+        "tire_cleaner": {
+          "type": ["foam", "gel"],
+          "size": ["16 oz", "1 qt"]
+        }
+      }
+    },
+    "tools_and_equipment": {
+      "basic_tools": {
+        "socket_sets": {
+          "size": ["1/4\"", "3/8\"", "1/2\""],
+          "pieces": [20, 40, 100]
+        },
+        "wrenches": {
+          "type": ["open-end", "box-end"],
+          "size": ["metric", "standard"]
+        },
+        "screwdrivers": {
+          "type": ["flathead", "phillips"],
+          "size": ["standard", "precision"]
+        },
+        "pliers": {
+          "type": ["slip joint", "needle nose"],
+          "size": ["standard", "mini"]
+        }
+      },
+      "specialty_tools": {
+        "diagnostic_scanners": {
+          "type": ["OBD-II", "bluetooth"],
+          "compatibility": ["universal", "specific models"]
+        },
+        "jacks": {
+          "type": ["floor", "bottle"],
+          "capacity": ["1.5 ton", "3 ton"]
+        },
+        "creepers": {
+          "type": ["standard", "low profile"],
+          "size": ["standard", "adjustable"]
+        },
+        "tire_pressure_gauges": {
+          "type": ["digital", "analog"],
+          "range": ["0-60 PSI", "0-100 PSI"]
+        }
+      }
+    },
+    "tires_and_wheels": {
+      "tires": {
+        "all_season_tires": {
+          "size": ["195/65R15", "225/60R16"],
+          "type": ["passenger", "SUV"]
+        },
+        "winter_tires": {
+          "size": ["195/65R15", "225/60R16"],
+          "type": ["studdable", "studless"]
+        },
+        "performance_tires": {
+          "size": ["245/40R18", "275/35R19"],
+          "type": ["summer", "racing"]
+        },
+        "off_road_tires": {
+          "size": ["30\"", "33\"", "35\""],
+          "type": ["mud", "all-terrain"]
+        }
+      },
+      "wheels": {
+        "alloy_wheels": {
+          "size": ["16\"", "17\"", "18\""],
+          "finish": ["silver", "black", "chrome"]
+        },
+        "steel_wheels": {
+          "size": ["14\"", "15\"", "16\""],
+          "finish": ["painted", "primed"]
+        },
+        "wheel_covers": {
+          "size": ["14\"", "15\"", "16\""],
+          "style": ["sport", "classic"]
+        }
+      }
+    },
+    "electronics": {
+      "audio_and_multimedia": {
+        "car_stereos": {
+          "type": ["single DIN", "double DIN"],
+          "features": ["bluetooth", "USB", "navigation"]
+        },
+        "speakers": {
+          "type": ["coaxial", "component"],
+          "size": ["6.5\"", "6x9\"", "8\""]
+        },
+        "subwoofers": {
+          "type": ["active", "passive"],
+          "size": ["10\"", "12\"", "15\""]
+        },
+        "amplifiers": {
+          "type": ["mono", "2-channel", "4-channel"],
+          "power": ["500W", "1000W"]
+        }
+      },
+      "gps_and_navigation": {
+        "portable_gps_units": {
+          "screen_size": ["4.3\"", "5\"", "7\""],
+          "features": ["traffic", "maps"]
+        },
+        "smartphone_mounts": {
+          "type": ["dashboard", "windshield"],
+          "compatibility": ["universal", "specific models"]
+        },
+        "backup_cameras": {
+          "type": ["wired", "wireless"],
+          "features": ["night vision", "parking guidelines"]
+        }
+      }
+    },
+    "safety_and_security": {
+      "safety_gear": {
+        "car_jacks": {
+          "type": ["hydraulic", "floor"],
+          "capacity": ["1.5 ton", "3 ton"]
+        },
+        "jump_starters": {
+          "type": ["portable", "lithium-ion"],
+          "capacity": ["400A", "1000A"]
+        },
+        "first_aid_kits": {
+          "contents": ["bandages", "antiseptics", "tools"],
+          "size": ["standard", "compact"]
+        },
+        "fire_extinguishers": {
+          "type": ["ABC", "BC"],
+          "size": ["2.5 lb", "5 lb"]
+        }
+      },
+      "security_products": {
+        "car_alarms": {
+          "type": ["shock sensor", "GPS tracking"],
+          "features": ["remote start", "alerts"]
+        },
+        "steering_wheel_locks": {
+          "type": ["bar style", "disk style"],
+          "fit": ["universal", "vehicle-specific"]
+        },
+        "window_breakers": {
+          "type": ["manual", "automatic"],
+          "features": ["LED", "multi-tool"]
+        }
+      }
+    },
+    "vehicle_care": {
+      "exterior_care": {
+        "wax": {
+          "type": ["liquid", "paste"],
+          "size": ["16 oz", "32 oz"]
+        },
+        "clay_bars": {
+          "type": ["standard", "fine"],
+          "size": ["200g", "400g"]
+        },
+        "tire_shine": {
+          "type": ["spray", "gel"],
+          "size": ["16 oz", "1 qt"]
+        }
+      },
+      "interior_care": {
+        "upholstery_cleaners": {
+          "type": ["foam", "spray"],
+          "size": ["16 oz", "1 qt"]
+        },
+        "leather_conditioners": {
+          "type": ["cream", "spray"],
+          "size": ["8 oz", "16 oz"]
+        },
+        "odor_eliminators": {
+          "type": ["spray", "gel"],
+          "size": ["8 oz", "16 oz"]
+        }
+      }
+    }
+  },
+  "books_and_stationery": {
+    "books": {
+      "fiction": {
+        "novels": {
+          "genre": ["literary", "mystery", "romance", "sci-fi"],
+          "format": ["paperback", "hardcover", "eBook"]
+        },
+        "short_stories": {
+          "collection": ["anthology", "single author"],
+          "format": ["paperback", "eBook"]
+        },
+        "graphic_novels": {
+          "genre": ["superhero", "manga", "literary"],
+          "format": ["paperback", "hardcover"]
+        }
+      },
+      "non_fiction": {
+        "biographies": {
+          "subject": ["historical figures", "celebrities"],
+          "format": ["paperback", "hardcover"]
+        },
+        "self_help": {
+          "topic": ["motivation", "health", "finance"],
+          "format": ["paperback", "eBook"]
+        },
+        "cookbooks": {
+          "cuisine": ["italian", "vegan", "baking"],
+          "format": ["paperback", "hardcover"]
+        }
+      },
+      "children_books": {
+        "picture_books": {
+          "age_group": ["0-5 years"],
+          "format": ["hardcover", "board book"]
+        },
+        "early_readers": {
+          "age_group": ["5-7 years"],
+          "format": ["paperback", "eBook"]
+        },
+        "chapter_books": {
+          "age_group": ["7-10 years"],
+          "format": ["paperback", "hardcover"]
+        }
+      }
+    },
+    "stationery": {
+      "writing_instruments": {
+        "pens": {
+          "type": ["ballpoint", "gel", "fountain"],
+          "color": ["black", "blue", "red", "assorted"]
+        },
+        "pencils": {
+          "type": ["graphite", "mechanical"],
+          "size": ["standard", "colored"]
+        },
+        "markers": {
+          "type": ["permanent", "dry erase", "highlighters"],
+          "color": ["assorted", "neon"]
+        }
+      },
+      "paper_products": {
+        "notebooks": {
+          "size": ["A4", "A5", "college ruled"],
+          "type": ["spiral", "composition"]
+        },
+        "sticky_notes": {
+          "size": ["3\"x3\"", "4\"x6\""],
+          "color": ["assorted", "neon"]
+        },
+        "folders": {
+          "type": ["pocket", "pronged"],
+          "material": ["plastic", "paper"]
+        }
+      }
+    },
+    "art_supplies": {
+      "drawing_and_painting": {
+        "sketchbooks": {
+          "size": ["9\"x12\"", "11\"x14\""],
+          "paper_type": ["mixed media", "watercolor"]
+        },
+        "acrylic_paints": {
+          "set_size": [6, 12, 24],
+          "color": ["assorted", "neon"]
+        },
+        "brushes": {
+          "type": ["round", "flat", "fan"],
+          "size": ["small", "medium", "large"]
+        }
+      },
+      "craft_supplies": {
+        "glue": {
+          "type": ["liquid", "stick", "spray"],
+          "size": ["4 oz", "8 oz"]
+        },
+        "scissors": {
+          "type": ["standard", "craft", "safety"],
+          "size": ["small", "medium", "large"]
+        },
+        "craft_kits": {
+          "type": ["DIY", "scrapbooking"],
+          "age_group": ["all ages"]
+        }
+      }
+    },
+    "organizational_supplies": {
+      "planners_and_calendars": {
+        "daily_planners": {
+          "size": ["A5", "A4"],
+          "format": ["weekly", "monthly"]
+        },
+        "wall_calendars": {
+          "theme": ["inspirational", "art", "nature"],
+          "size": ["12\"x12\"", "12\"x24\""]
+        },
+        "desk_calendars": {
+          "type": ["flip", "magnetic"],
+          "size": ["standard", "mini"]
+        }
+      },
+      "storage_solutions": {
+        "binders": {
+          "size": ["1\"", "2\"", "3\""],
+          "type": ["D-ring", "view", "zip-up"]
+        },
+        "file_organizers": {
+          "type": ["desktop", "hanging"],
+          "material": ["plastic", "metal"]
+        },
+        "labels": {
+          "type": ["printable", "pre-printed"],
+          "size": ["standard", "assorted"]
+        }
+      }
+    },
+    "school_supplies": {
+      "basic_supplies": {
+        "backpacks": {
+          "size": ["standard", "mini"],
+          "type": ["basic", "rolling", "laptop"]
+        },
+        "lunch_boxes": {
+          "type": ["insulated", "bento"],
+          "size": ["standard", "small"]
+        },
+        "water_bottles": {
+          "type": ["plastic", "stainless steel"],
+          "size": ["16 oz", "32 oz"]
+        }
+      },
+      "subject_specific_supplies": {
+        "math_supplies": {
+          "type": ["calculators", "rulers"],
+          "grade_level": ["elementary", "high school"]
+        },
+        "art_supplies": {
+          "type": ["colored pencils", "watercolors"],
+          "grade_level": ["all ages"]
+        },
+        "science_supplies": {
+          "type": ["lab kits", "safety goggles"],
+          "grade_level": ["middle school", "high school"]
+        }
+      }
+    },
+    "technology_and_accessories": {
+      "e_readers": {
+        "e_readers": {
+          "brand": ["kindle", "nook"],
+          "features": ["Wi-Fi", "waterproof"]
+        },
+        "accessories": {
+          "type": ["covers", "screen protectors"],
+          "size": ["standard", "custom"]
+        }
+      },
+      "office_supplies": {
+        "printers": {
+          "type": ["inkjet", "laser"],
+          "features": ["wireless", "all-in-one"]
+        },
+        "paper": {
+          "type": ["printer paper", "photo paper"],
+          "size": ["letter", "A4"]
+        },
+        "ink_cartridges": {
+          "type": ["standard", "high-yield"],
+          "compatibility": ["brand-specific"]
+        }
+      }
+    },
+    "gift_and_specialty_items": {
+      "greeting_cards": {
+        "occasions": {
+          "type": ["birthday", "thank you", "holiday"],
+          "format": ["single", "boxed"]
+        },
+        "postcards": {
+          "theme": ["travel", "art", "inspirational"],
+          "size": ["standard", "mini"]
+        }
+      },
+      "gift_wrap": {
+        "wrapping_paper": {
+          "theme": ["floral", "birthday", "holiday"],
+          "size": ["standard", "jumbo"]
+        },
+        "gift_bags": {
+          "size": ["small", "medium", "large"],
+          "style": ["printed", "solid color"]
+        }
+      }
+    }
+  },
+  "garden_and_outdoor": {
+    "gardening_tools": {
+      "hand_tools": {
+        "trowels": {
+          "type": ["garden", "transplant", "mini"],
+          "material": ["stainless steel", "plastic"]
+        },
+        "pruners": {
+          "type": ["bypass", "anvil"],
+          "size": ["standard", "mini"]
+        },
+        "hand_rakes": {
+          "size": ["standard", "mini"],
+          "material": ["steel", "plastic"]
+        },
+        "weeders": {
+          "type": ["hand", "claw", "electric"],
+          "features": ["ergonomic", "adjustable"]
+        }
+      },
+      "power_tools": {
+        "lawn_mowers": {
+          "type": ["gas", "electric", "battery"],
+          "size": ["push", "riding"]
+        },
+        "string_trimmers": {
+          "type": ["electric", "gas", "battery"],
+          "features": ["adjustable", "lightweight"]
+        },
+        "leaf_blowers": {
+          "type": ["corded", "battery", "gas"],
+          "features": ["vacuum", "mulching"]
+        },
+        "hedge_trimmers": {
+          "type": ["electric", "gas"],
+          "features": ["corded", "cordless"]
+        }
+      }
+    },
+    "outdoor_furniture": {
+      "seating": {
+        "patio_chairs": {
+          "type": ["lounge", "dining", "folding"],
+          "material": ["wood", "metal", "plastic"]
+        },
+        "benches": {
+          "size": ["2-seater", "3-seater"],
+          "material": ["wood", "metal"]
+        },
+        "hammocks": {
+          "type": ["single", "double"],
+          "material": ["cotton", "nylon"]
+        },
+        "outdoor_cushions": {
+          "size": ["standard", "custom"],
+          "material": ["water-resistant", "UV-resistant"]
+        }
+      },
+      "tables": {
+        "dining_tables": {
+          "size": ["round", "rectangular"],
+          "material": ["wood", "metal"]
+        },
+        "coffee_tables": {
+          "size": ["standard", "low"],
+          "material": ["glass", "wood"]
+        },
+        "side_tables": {
+          "type": ["folding", "nesting"],
+          "material": ["plastic", "metal"]
+        }
+      }
+    },
+    "planters_and_pots": {
+      "planters": {
+        "garden_beds": {
+          "type": ["raised", "in-ground"],
+          "material": ["wood", "metal", "composite"]
+        },
+        "vertical_planters": {
+          "size": ["wall-mounted", "freestanding"],
+          "material": ["plastic", "wood"]
+        },
+        "self_watering_planters": {
+          "size": ["small", "large"],
+          "features": ["built-in reservoir"]
+        }
+      },
+      "pots": {
+        "flower_pots": {
+          "size": ["4\"", "6\"", "12\""],
+          "material": ["terracotta", "plastic", "ceramic"]
+        },
+        "hanging_baskets": {
+          "size": ["10\"", "12\"", "14\""],
+          "material": ["wicker", "plastic"]
+        },
+        "indoor_planters": {
+          "type": ["decorative", "self-watering"],
+          "material": ["ceramic", "plastic"]
+        }
+      }
+    },
+    "seeds_and_soil": {
+      "seeds": {
+        "flower_seeds": {
+          "type": ["annuals", "perennials"],
+          "size": ["packet", "bulk"]
+        },
+        "vegetable_seeds": {
+          "type": ["heirloom", "organic"],
+          "size": ["packet", "bulk"]
+        },
+        "herb_seeds": {
+          "type": ["culinary", "medicinal"],
+          "size": ["packet", "bulk"]
+        }
+      },
+      "soil_and_amendments": {
+        "potting_soil": {
+          "type": ["organic", "all-purpose"],
+          "size": ["1 cu ft", "2 cu ft"]
+        },
+        "fertilizers": {
+          "type": ["granular", "liquid"],
+          "features": ["slow-release", "fast-acting"]
+        },
+        "mulch": {
+          "type": ["bark", "straw", "rubber"],
+          "size": ["2 cu ft", "3 cu ft"]
+        }
+      }
+    },
+    "outdoor_decor": {
+      "lighting": {
+        "solar_lights": {
+          "type": ["pathway", "string", "spotlights"],
+          "features": ["motion sensor", "color-changing"]
+        },
+        "lanterns": {
+          "type": ["hanging", "tabletop"],
+          "material": ["metal", "glass"]
+        },
+        "fairy_lights": {
+          "type": ["battery-operated", "plug-in"],
+          "length": ["10 ft", "50 ft"]
+        }
+      },
+      "garden_statues": {
+        "animal_statues": {
+          "type": ["birds", "frogs", "cats"],
+          "material": ["stone", "resin"]
+        },
+        "decorative_stones": {
+          "type": ["engraved", "painted"],
+          "size": ["standard", "large"]
+        },
+        "water_features": {
+          "type": ["fountains", "birdbaths"],
+          "material": ["stone", "plastic"]
+        }
+      }
+    },
+    "outdoor_cooking": {
+      "grills": {
+        "gas_grills": {
+          "size": ["2-burner", "4-burner"],
+          "features": ["side burner", "rotisserie"]
+        },
+        "charcoal_grills": {
+          "size": ["kettle", "barrel"],
+          "features": ["adjustable vents"]
+        },
+        "electric_grills": {
+          "size": ["tabletop", "full-size"],
+          "features": ["indoor/outdoor"]
+        }
+      },
+      "cookware": {
+        "grill_tools": {
+          "type": ["spatula", "tongs", "brush"],
+          "material": ["stainless steel", "wood"]
+        },
+        "grilling_mats": {
+          "size": ["standard", "large"],
+          "material": ["non-stick", "heat-resistant"]
+        },
+        "smokers": {
+          "type": ["electric", "charcoal"],
+          "size": ["portable", "full-size"]
+        }
+      }
+    },
+    "pest_control": {
+      "repellents": {
+        "insect_repellents": {
+          "type": ["sprays", "granules"],
+          "features": ["natural", "chemical"]
+        },
+        "animal_repellents": {
+          "type": ["sprays", "granules"],
+          "target": ["rabbits", "deer", "rodents"]
+        }
+      },
+      "traps": {
+        "insect_traps": {
+          "type": ["sticky", "electric"],
+          "features": ["indoor", "outdoor"]
+        },
+        "rodent_traps": {
+          "type": ["snap", "live", "electronic"],
+          "features": ["baited", "no-kill"]
+        }
+      }
+    },
+    "outdoor_recreation": {
+      "camping_gear": {
+        "tents": {
+          "size": ["2-person", "4-person", "family"],
+          "type": ["backpacking", "car camping"]
+        },
+        "sleeping_bags": {
+          "temperature_rating": ["0°F", "20°F", "40°F"],
+          "size": ["regular", "long"]
+        },
+        "camp_stoves": {
+          "type": ["portable", "tabletop"],
+          "fuel_type": ["propane", "butane"]
+        }
+      },
+      "outdoor_games": {
+        "lawn_games": {
+          "type": ["bocce ball", "cornhole", "horseshoes"],
+          "set_size": ["standard", "mini"]
+        },
+        "sports_equipment": {
+          "type": ["frisbee", "volleyball", "badminton"],
+          "features": ["portable", "inflatable"]
+        }
+      }
+    }
+  }
+}

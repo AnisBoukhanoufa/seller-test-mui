@@ -1,0 +1,98 @@
+.home {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  .homeContainer {
+    flex: 5;
+
+    .container1 {
+      position: relative;
+      height: 100%;
+      .filter-container {
+        display: flex;
+        margin: 10px;
+        gap: 30px;
+        .button-grp-filter button {
+          padding: 0 10px;
+        }
+        .seller-type {
+          width: fit-content;
+          display: flex;
+
+          border: solid 1px rgb(226, 226, 226);
+          border-radius: 7px;
+          background-color: rgb(241, 241, 241);
+          .btn {
+            padding: 5px;
+            width: 8rem;
+            text-align: center;
+
+            color: black;
+            cursor: pointer;
+          }
+          .selected-btn {
+            background-color: var(--color-secondary);
+            color: white;
+            border: 1px solid var(--color-secondary);
+            border-radius: 5px;
+
+            &:hover {
+              background-color: white;
+              background-color: var(--color-secondary);
+            }
+          }
+        }
+
+     
+
+    
+      }
+
+      .widgets-home {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        gap: 20px;
+      }
+
+      .chartContainers {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+    }
+  }
+}
+
+// flex-wrap: wrap;
+
+// .pieChart,
+// .barChart {
+//   overflow-x: auto;
+//   width: 100%;
+// }
+
+@media (max-width: 1016px) {
+  .chartContainers {
+    gap: 2rem;
+    .pieChart,
+    .barChart {
+      width: 100%;
+      overflow-y: auto;
+
+      .options {
+        padding: 0 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+        font-size: 14px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+        color: var(z);
+      }
+    }
+  }
+}

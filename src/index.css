@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Import Montserrat and Roboto fonts with all weights */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Tailwind CSS v4+ setup for Vite React project */
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+@import "tailwindcss";
+
+@layer utilities {
+  .container {
+    padding-inline: 1rem;
+  }
+}
+@utility container {
+  padding-inline: 1rem;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+}
+
+body {
+  font-family: var(--font-montserrat), sans-serif;
+  scrollbar-width: none;
+  overflow-x: hidden;
+}
+
+:root {
+  --color-main: #023e8a;
+  --color-details: #023e8a;
+  --color-secondary: #22b573;
+  --color-regular: #22b573;
+  --color-irregular: #b1161e;
+  --color-total: #16cfd8;
+
+  --color-new: #d8ce19;
+  --color-93: #d8ce19;
+  --color-inConfirmation: #e07e24;
+  --color-96: #e07e24;
+  --color-wrong: #d87da3;
+  --color-98: #d87da3;
+  --color-canceled: #616161;
+  --color-97: #616161;
+  --color-confirmed: #4fd27f;
+  --color-100: #4fd27f;
+  --color-expired: #98a497;
+  --color-99: #98a497;
+  --color-shipping: #2970ff;
+  --color-102: #2970ff;
+  --color-dispatched: #93a661;
+  --color-101: #93a661;
+  --color-delivered: #019208;
+  --color-104: #019208;
+  --color-returned: #dd2c00;
+  --color-103: #dd2c00;
+  --color-return: #ba6fcc;
+  --color-115: #ba6fcc;
+
+  --color-professional: #ff0000;
+  --color-beginner: #ff3fff;
+  --color-amateur: #00ffff;
+  --color-process: #f0ac00;
+  --color-payed: #008000;
+  --color-active: #008000;
+  --color-inactive: #2f2f2f;
+  --color-sourcing: #ff7f00;
+  --color-test: #30b7f1;
+  --color-received: #964b00;
+  --color-rejected: #d87da3;
+  --color-search: #8400ff;
+  --color-purchased: #86d3ff;
+  --color-banned: #ff0000;
+  --color-duplicated: #7b3f00;
+  --color-duplicate: #7b3f00;
+  --color-available: rgb(40, 104, 255);
+  --color-hold: #e07e24;
+  --color-stock: rgb(195, 66, 63);
+
+  --color-main-rgb: 2, 62, 138;
+  --color-stock-rgb: 195, 66, 63;
+  --color-available-rgb: 40, 104, 255;
+  --color-expired-rgb: 152, 164, 151;
+  --color-return-rgb: 186, 111, 204;
+  --color-duplicated-rgb: 123, 63, 0;
+  --color-duplicate-rgb: 123, 63, 0;
+  --color-banned-rgb: 255, 0, 0;
+  --color-regular-rgb: 22, 181, 115;
+  --color-irregular-rgb: 177, 22, 30;
+  --color-secondary-rgb: 34, 181, 115;
+  --color-total-rgb: 22, 207, 216;
+  --color-new-rgb: 216, 206, 25;
+  --color-inConfirmation-rgb: 224, 126, 36;
+  --color-wrong-rgb: 216, 125, 163;
+  --color-canceled-rgb: 97, 97, 97;
+  --color-confirmed-rgb: 86, 204, 129;
+  --color-shipping-rgb: 41, 112, 255;
+  --color-dispatched-rgb: 147, 166, 97;
+  --color-delivered-rgb: 0, 168, 8;
+  --color-returned-rgb: 221, 44, 0;
+  --color-professional-rgb: 255, 0, 0;
+  --color-beginner-rgb: 255, 63, 255;
+  --color-amateur-rgb: 0, 255, 255;
+  --color-process-rgb: 240, 172, 0;
+  --color-payed-rgb: 0, 128, 0;
+  --color-active-rgb: 0, 128, 0;
+  --color-inactive-rgb: 47, 47, 47;
+  --color-sourcing-rgb: 255, 127, 0;
+  --color-test-rgb: 48, 183, 241;
+  --color-received-rgb: 150, 75, 0;
+  --color-rejected-rgb: 216, 125, 163;
+  --color-search-rgb: 132, 0, 255;
+  --color-purchased-rgb: 134, 211, 255;
+  --color-hold-rgb: 224, 126, 36;
+
+  --color-received: #0065ff;
+  --color-revenues: #6edd26;
+  --color-balance: #6edcea;
+  --color-payment: #ff6f61;
+  --color-gray: #696969;
+  --color-dark-gray: #333333;
+  --color-border: #d3d3d3;
+  --gap-main: 20px;
+  --p-main: 16px;
+  --transition-main: 0.3s;
+
+  --font-family: "Montserrat", "IBM Plex Sans Arabic", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+  --color-primary-blue: #023e8a;
+  --color-primary-green: #6edd26;
+  --color-secondary-green: #22b573;
+  --color-light-blue-bg: #ebf9ff;
+  --color-gray: #828282;
+  --color-dark-gray: #696969;
+  --color-border: #d4d4d4;
+  --spacing-xxs: 0.5rem;
+  --spacing-xs: 1rem;
+  --spacing-s: 1.5rem;
+  --spacing-m: 2rem;
+  --spacing-l: 2.5rem;
+  --spacing-xl: 4rem;
+  --spacing-xxl: 7.5rem;
+  --spacing-section-gap: 8.25rem;
+
+  /* --color-inConfirmation: #e66457;
+  --color-wrong: #6edd26;
+  --color-canceled: #0065ff;
+  --color-expired: #53a61d;
+  --color-confirmed-all: #023e8a;
+
+  --color-confirmed: #082023;
+  --color-dispatch: #274d52;
+  --color-shipping: #42848c;
+  --color-delivered: #63c6d3;
+  --color-return: #6edcea;
+  --color-returned: #d2f4f8; */
+}
+
+.App {
+  display: flex;
+  width: 100%;
+}
+
+/* Utilities */
+
+.overflowPreventer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-y: auto;
+  display: inline;
+  overflow-x: hidden;
+}
+
+.overflowPreventerContainer {
+  position: relative;
+  height: 100%;
+}
+
+.overflowPreventerFlexbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.wordsWrapper {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.errorValidation {
+  color: red;
+  margin-top: 0.2rem;
+  text-align: left;
+}
+
+.page-title {
+  color: var(--color-secondary);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 2% 0;
+}
+
+.separator {
+  height: 0.05rem;
+  background-color: #d2d2d2;
+  width: 100%;
+}
+.ltr {
+  direction: ltr;
+}
+.rtl {
+  direction: rtl;
+}

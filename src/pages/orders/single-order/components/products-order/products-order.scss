@@ -1,0 +1,28 @@
+.container-products {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 175px));
+  grid-gap: 10px;
+  padding: 20px;
+  .active {
+    background-color: rgb(228, 255, 228);
+  }
+  .in-active {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  .add-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-secondary);
+    .add-icon{
+      transition: 0.3s;
+      scale: 1;
+      &:hover{
+        scale: 1.1;
+      }
+    }
+  }
+}

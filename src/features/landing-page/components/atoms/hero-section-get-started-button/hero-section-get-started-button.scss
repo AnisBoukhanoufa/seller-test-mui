@@ -1,0 +1,55 @@
+.hero-get-start-button {
+  position: relative;
+  width: 133px;
+  height: 40px;
+  background-color: var(--color-primary-green);
+  color: var(--color-primary-blue);
+  cursor: pointer;
+  overflow: hidden;
+  transition:
+    color 0.4s ease,
+    background-color 0.4s ease;
+}
+.hero-get-start-button:hover {
+  background-color: transparent;
+  color: var(--color-primary-green);
+}
+.btn-get-started {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    transform 0.4s ease,
+    opacity 0.4s ease;
+}
+
+.btn-get-started.initial {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.hero-get-start-button:hover .initial {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.btn-get-started.hover {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.hero-get-start-button:hover .hover {
+  transform: translateX(0);
+  opacity: 1;
+}
+@media (min-width: 640px) {
+  .hero-get-start-button {
+    width: 276px;
+    height: 53px;
+  }
+}

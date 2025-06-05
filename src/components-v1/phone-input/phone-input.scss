@@ -1,0 +1,10 @@
+.react-tel-input .phone-input-error:focus {
+  border: 2px solid red;
+  box-shadow: 0 0 0 1px rgba(244, 67, 54, 1);
+}
+.react-tel-input .phone-input:hover {
+  box-shadow: 0 0 0 1px black;
+}
+.react-tel-input .phone-input-error:hover {
+  box-shadow: 0 0 0 0px rgba(244, 67, 54, 1);
+}

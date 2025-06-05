@@ -1,0 +1,83 @@
+.products-images {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap:1em;
+  h3 {
+    color: rgb(113, 113, 113);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+  .uploadMessage {
+    text-align: center;
+    color: #c0c0c0;
+  }
+
+  .clearButton {
+    background-color: var(--color-returned);
+    color: #fff;
+    padding: 0.5rem;
+    width: max-content;
+    border-radius: 0.3rem;
+    cursor: pointer;
+  }
+
+  ul {
+    display: flex;
+    gap: 20px;
+    height: 100px !important;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    li {
+      background-color: #f4f4f4;
+      border-radius: 0.3rem;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 15px;
+      width: fit-content;
+      height: fit-content;
+
+      .deleteButton {
+        cursor: pointer;
+        height: fit-content;
+        margin-left: 5px;
+      }
+    }
+  }
+
+  .uploadArea {
+    height: 144px;
+    width: 100%;
+    border: dotted 0.15rem #c0c0c0;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    gap: 1rem;
+
+    &:hover {
+      background-color: #d9e0eb;
+      border: 0.15rem solid var(--color-main);
+    }
+
+    input {
+      cursor: pointer;
+      position: absolute;
+      height: 100%;
+      opacity: 0;
+      width: 100%;
+      background-color: red;
+    }
+    span {
+      color: var(--color-main);
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.numbers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-items: center;
+  margin: 4rem 6rem;
+  font-family: var(--font-family);
+  gap: 4rem;
+}
+
+.numbers h1 {
+  white-space: nowrap;
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 45px;
+  margin: 1rem 0;
+  color: #22b573;
+}
+
+.numbers-container {
+  display: grid;
+  grid-template-columns: 80px 50px 200px;
+  row-gap: 5rem;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 850px) {
+  .numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin: 2rem 1rem;
+    font-family: var(--font-family);
+    gap: 2rem;
+    font-family: var(--font-family);
+    padding: 1rem;
+  }
+
+  .numbers h1 {
+    font-size: 32px;
+  }
+  .number-contanier {
+    display: flex;
+    justify-content: center;
+  }
+  .numbers-container {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    column-gap: 50px;
+    row-gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

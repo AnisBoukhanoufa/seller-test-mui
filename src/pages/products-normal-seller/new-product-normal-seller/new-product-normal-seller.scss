@@ -1,0 +1,59 @@
+
+
+.newProductNormalSeller {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  .newContainer {
+    flex: 5;
+    .top {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 1em 2em;
+      gap: 2em;
+      .general-infos {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        .inputs {
+          display: flex;
+          gap: 1em;
+          .infos-left,
+          .infos-right {
+            flex: 1;
+            width: 50%;
+          }
+          .infos-left {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5em;
+            .formInput.url {
+              display: flex;
+              flex-direction: row;
+            }
+          }
+        }
+        .submit-button {
+          align-self: flex-end;
+        }
+      }
+      .sub-product-handle {
+        display: flex;
+        flex-direction: column;
+        .product-details {
+          display: flex;
+          gap: 1em;
+          .product-details-left,
+          .product-details-right {
+            flex: 1;
+          }
+        }
+        .add-subProduct-button{
+          width: fit-content;
+          align-self: flex-end;
+        }
+      }
+    }
+  }
+}

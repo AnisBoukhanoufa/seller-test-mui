@@ -1,0 +1,40 @@
+.productAffiliateWarehouse {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(245, 245, 245);
+  margin: 5px 0;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  gap: 20px;
+  .cartProduct-left {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    gap: 10px;
+  }
+  .cartProduct-left-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .cartProduct-right {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .trash {
+    width: 20px;
+    margin-inline-start: 5px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
