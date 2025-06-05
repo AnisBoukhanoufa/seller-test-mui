@@ -19,7 +19,7 @@
       "renderer/_default.page.client.tsx",
       "renderer/_default.page.server.tsx?extractAssets&lang.tsx"
     ],
-    "file": "assets/entries/entry-client-routing.7d01e882.js",
+    "file": "assets/entries/entry-client-routing.50d96f25.js",
     "imports": [
       "_chunk-a6d620bb.js"
     ],
@@ -34,7 +34,7 @@
       "renderer/_default.page.client.tsx",
       "renderer/_default.page.server.tsx?extractAssets&lang.tsx"
     ],
-    "file": "assets/entries/entry-server-routing.191391b8.js",
+    "file": "assets/entries/entry-server-routing.985f24d8.js",
     "imports": [
       "_chunk-a6d620bb.js"
     ],
@@ -58,7 +58,7 @@
     "src": "pages/about/index.page.tsx"
   },
   "pages/index/index.page.css": {
-    "file": "assets/static/index.page.8b130f24.css",
+    "file": "assets/static/index.page.8fd05208.css",
     "src": "pages/index/index.page.css"
   },
   "pages/index/index.page.tsx": {
@@ -95,9 +95,9 @@
       "assets/static/warehousing-phone.8de8ccb1.svg"
     ],
     "css": [
-      "assets/static/index.page.8b130f24.css"
+      "assets/static/index.page.8fd05208.css"
     ],
-    "file": "assets/entries/pages_index_index.page.681e69df.js",
+    "file": "assets/entries/pages_index_index.page.71f26a52.js",
     "imports": [
       "_chunk-49eae3d6.js",
       "_chunk-9af97169.js"
@@ -107,7 +107,7 @@
     "src": "pages/index/index.page.tsx"
   },
   "renderer/_default.page.client.tsx": {
-    "file": "assets/entries/renderer_default.page.client.09a12524.js",
+    "file": "assets/entries/renderer_default.page.client.44e49de4.js",
     "imports": [
       "_chunk-49eae3d6.js",
       "_chunk-9af97169.js",
@@ -118,14 +118,14 @@
     "src": "renderer/_default.page.client.tsx"
   },
   "renderer/_default.page.server.tsx?extractAssets&lang.css": {
-    "file": "assets/static/default.page.server.49536bbc.css",
+    "file": "assets/static/default.page.server.9b074a8b.css",
     "src": "renderer/_default.page.server.tsx?extractAssets&lang.css"
   },
   "renderer/_default.page.server.tsx?extractAssets&lang.tsx": {
     "css": [
-      "assets/static/default.page.server.49536bbc.css"
+      "assets/static/default.page.server.9b074a8b.css"
     ],
-    "file": "assets/entries/renderer_default.page.server.extractAssets.167bc60e.js",
+    "file": "assets/entries/renderer_default.page.server.extractAssets.195ef71a.js",
     "isDynamicEntry": true,
     "isEntry": true,
     "src": "renderer/_default.page.server.tsx?extractAssets&lang.tsx"
