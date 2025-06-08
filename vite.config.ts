@@ -19,7 +19,8 @@ export default defineConfig({
   // base: "/seller/",
   plugins: [
     react(),
-    ssr(),
+    // ssr(),
+    ssr({ prerender: true }),
     viteCompression({
       algorithm: "brotliCompress",
       ext: ".br",
@@ -33,7 +34,7 @@ export default defineConfig({
   ],
   ssr: {
     noExternal,
-  }, 
+  },
   server: {
     https: {
       key: fs.readFileSync("./certs/localhost.key"),
@@ -45,7 +46,7 @@ export default defineConfig({
       // Ensure aliases use special characters at the start for compatibility with Vike (vite-plugin-ssr)
       // See https://vite-plugin-ssr.com/path-aliases#vite
       "~app": path.resolve(__dirname, "./src/app"),
-      "~trigger": path.resolve(__dirname, "./src/app/trigger/ts")
+      "~trigger": path.resolve(__dirname, "./src/app/trigger/ts"),
     },
   },
 });
